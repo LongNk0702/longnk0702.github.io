@@ -1,0 +1,512 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2021 Jitin Nair
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
+\documentclass[a4paper,11pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% % fontspec allows you to use TTF/OTF fonts directly
+% \usepackage{fontspec}
+% \defaultfontfeatures{Ligatures=TeX}
+
+% % modified for ShareLaTeX use
+% \setmainfont[
+% SmallCapsFont = Fontin-SmallCaps.otf,
+% BoldFont = Fontin-Bold.otf,
+% ItalicFont = Fontin-Italic.otf
+% ]
+% {Fontin.otf}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.95]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+\usepackage{academicons}
+\usepackage{quotes}
+
+%for maths
+\usepackage{amsmath}
+\raggedbottom 
+%debug page outer frames
+%\usepackage{showframe}
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Khac-Long Nguyen} \\[7.5pt]
+\href{https://github.com/LongNK0702}{\raisebox{-0.05\height}\faGithub\ LongNK0702} \ $|$ \ 
+\href{https://www.linkedin.com/in/longnk0702/}{\raisebox{-0.05\height}\faLinkedin\ Long Nguyen Khac} \ $|$ \ 
+\href{mailto:doannhatminh253@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ nk.long0702@gmail.com} \ $|$ \ 
+\href{https://join.skype.com/invite/yaPotLbMB6zW}{\raisebox{-0.05\height}\faMobile \ (+84)358036759} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTIONS
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+% Vietnam National Unviersity
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Vietnam National University, Hanoi (VNU)} & \hfill Hanoi, Vietnam \\[3.75pt]
+B.Eng. in Automation and Informatics & \hfill Sep 2021 - Aug 2026 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item QS WUR Ranking 386 for Engineering and Technology (\href{https://www.topuniversities.com/universities/vietnam-national-university-hanoi}{Source})
+        \item Rank \#3 of the total major (\underline{GPA: 3.71/4.00})
+        \item Transcripts: \href{https://www.topuniversities.com/universities/vietnam-national-university-hanoi}{\raisebox{-0.05\height} Click here}
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+%National University of Singapore
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{National University of Singapore (NUS)} & \hfill Singapore \\[3.75pt]
+Semester Exchange Program (\underline{DiscoverNUS}) & \hfill Sep 2021 - Aug 2026 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item QS WUR Ranking 12 for Engineering and Technology (\href{https://www.topuniversities.com/universities/national-university-singapore-nus}{Source})
+        \item Courseworks: Robot Mechanics and Control (ME4245), Electric Drives and Control (EE4502), Calculus (MA2002)
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+%Research Experience
+\section{Research Experience}
+
+%Research Intern
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Research Intern} & \hfill Chiayi, Taiwan \\[3.75pt]
+AIM-HI Institute, National Chung Cheng University & \hfill May 2025 - Jul 2025 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item \textbf{Project:} Smart Sensing Technology for Smart Manufacturing.
+        \begin{itemize}
+            \item Developed a data-driven approach to estimate dynamic cutting force model in milling process by combining nonlinear system analysis with qualitative simulation.
+            \item Processed and trained 12 datasets of the cutting forces, each containing multi-channel sensor signals (three-axis dynamometer, spindle speed, feed rate, and depth of cut).
+            \item Implemented visualization and error analysis of predicted vs. actual measured cutting forces using Python.
+            \item Results: Prediction accuracy of 60-70\% compared to experimental ground-truth cutting force measurements.
+            \item Supervisor: Prof. Her-Terng Yau (\href{mailto:yauherterng@gmail.com}{\raisebox{-0.05\height}Email}, \href{https://deptime.ccu.edu.tw/p/405-1102-22906,c2239.php?Lang=en}{\raisebox{-0.05\height}Website})
+        \end{itemize} 
+    \end{itemize}
+    \vspace{-0.2cm}
+\end{minipage}
+}
+\end{tabularx}
+\vspace{-0.4cm}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Remote Research} & \hfill Remote \\[3.75pt]
+AIM-HI Institute, National Chung Cheng University & \hfill Aug 2025 - Current \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item \textbf{Project}: Prediction of cutting force model using AI and data-driven methods.
+        \begin{itemize}
+            \item Implementing 03 machine learning models and 01 data-driven model to predict cutting force.
+            \item Training 27 experienced datasets collected by Taguchi method.
+            \item Supervisor: Prof. Her-Terng Yau (\href{mailto:yauherterng@gmail.com}{\raisebox{-0.05\height}Email}, \href{https://deptime.ccu.edu.tw/p/405-1102-22906,c2239.php?Lang=en}{\raisebox{-0.05\height}Website})
+        \end{itemize}
+    \end{itemize}
+\end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Student Research} & \hfill Hanoi, Vietnam \\[3.75pt]
+Intelligent Control and Artificial Intelligence Lab, VNUIS & \hfill Sept 2022 - Current \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item \textbf{Project:}  Implementation Model Predictive Control for Machining System (Current)
+        \begin{itemize}
+            \item Reviewing more than 30 papers in control of machining system and cutting force prediction.
+            \item Combining machine learning and MPC model to control machining system.
+            \item Supervisor: Assoc. Prof.Nguyen Nhu Tung (\href{mailto:tungnn@vnu.edu.vn}{\raisebox{-0.05\height}Email}, \href{https://www.is.vnu.edu.vn/en/assoc-prof-phd-nguyen-nhu-tung/}{\raisebox{-0.05\height}Website})
+        \end{itemize}
+        
+        \item \textbf{Project:} Implementation Adaptive Control for 3-DOF Parallel Robot (2024)
+        \begin{itemize}
+            \item Designed mechanical model and physical prototype of 3-DOF delta parallel robot.
+            \item Applied adaptive fuzzy logic combined with backstepping control for robust trajectory tracking under uncertainties.
+            \item Results: Published in Lecture Notes in Networks and Systems, Springer, Q4 (\href{https://link.springer.com/book/10.1007/978-3-031-80943-9}{Source})
+            \item Supervisor: Dr. Le Xuan Hai (\href{mailto:hailx@vnu.edu.vn}{\raisebox{-0.05\height}Email}, \href{https://www.is.vnu.edu.vn/en/phd-le-xuan-hai/}{\raisebox{-0.05\height}Website})
+        \end{itemize}
+        \item \textbf{Project:} Detection of Personal Protective Equipment (PPE) in Construction Sites (2023)
+        \begin{itemize}
+            \item Built a custom dataset of 2,632 real construction site images across 5 PPE classes (helmet, vest, gloves, boots, person)
+            \item Trained and evaluated YOLOv5s with 6 activation functions, SiLU achieved the best performance.
+            \item Demonstrated robust detection of overlapping and small-scale PPE objects, suitable for real-time monitoring.
+            \item Results: Precision 84.8\%, Recall 80.2\%, mAP@0.5 83.9\%, mAP@0.5–0.95 43.6\%.
+
+        \end{itemize}
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\section{Teaching Experience}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Teaching Assistant} & \hfill Hanoi, Vietnam \\[3.75pt]
+Faculty of Engineering and Technology, VNUIS & \hfill Sept 2023 - Dec 2024 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item \textbf{Course}: Modeling and Simulation of Control Systems (Semester I, AY24/25)
+        \begin{itemize}
+                \item Provide guidance to student groups on applying simulation tools for robotics, mechatronics and process control applications by using MATLAB/Simulink.
+            \item Supported lecturer in preparing tutorials, lab manuals, and course materials.
+            \item Supervisor: Dr. Le Xuan Hai (\href{mailto:hailx@vnu.edu.vn}{\raisebox{-0.05\height}Email}, \href{https://www.is.vnu.edu.vn/en/phd-le-xuan-hai/}{\raisebox{-0.05\height}Website})
+        \end{itemize}
+
+        \item \textbf{Course}: PLC Programming (Semester 1, AY24/25)
+        \begin{itemize}
+            \item Assisted in preparing technical manual documents in Siemens S7-1200 and TIA Portal.
+            \item Mentored student groups on applying simulation tools for elevator control and pneumatic valve control by using MATLAB/Simulink.
+            \item Supervisor: MSc. Pham Hai Yen (\href{mailto:yenph@vnu.edu.vn}{\raisebox{-0.05\height}Email}, \href{https://www.is.vnu.edu.vn/en/ms-pham-hai-yen/}{\raisebox{-0.05\height}Website})
+        \end{itemize}
+
+        \item \textbf{Course}: Microprocessors and Microcontrollers (Semester 1, AY23/24)
+        \begin{itemize}
+            \item Provided guidance to students on programming embedded C, using Arduino and STM32, debugging techniques using Keil uVision, Arduino IDE, and STM32CubeIDE.
+            \item Supported lecturer in preparing tutorials, lab manuals of Arduino Uno and STM32F103C8T6 Kit, and course materials.
+signal control project.
+            \item Supervisor: Dr. Le Xuan Hai (\href{mailto:hailx@vnu.edu.vn}{\raisebox{-0.05\height}Email}, \href{https://www.is.vnu.edu.vn/en/phd-le-xuan-hai/}{\raisebox{-0.05\height}Website})
+        \end{itemize}
+    \end{itemize}
+    \vspace{-0.2cm}
+\end{minipage}
+}
+\end{tabularx}
+\vspace{-0.2cm}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Collaborator} & \hfill Hanoi, Vietnam \\[3.75pt]
+Hung STEM Robotics Lab & \hfill Jul 2022 - Dec 2022 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item \textbf{Project}: World Robotics Olympiad 2022 Vietnam
+        \begin{itemize}
+            \item Mentored in a team to participate in World Robotics Olympiad 2022 Vietnam, assisted the team in building up new LEGO modules.
+            \item Engaged in teaching STEM robotics classes using LEGO NXT in STEM club at Grammar Newton International Bilingual School, Hanoi.
+            \item Supervisor: Mr. Nguyen Quoc Hung (\href{mailto: }{\raisebox{-0.05\height}Email})
+        \end{itemize}
+    \end{itemize}
+\end{minipage}
+}
+\end{tabularx}
+
+%working experience
+\section{Working Experience}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Engineering Intern} & \hfill Hanoi, Vietnam \\[3.75pt]
+ETEK Automation Solutions JSC & \hfill Mar 2025 - May 2025 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item \textbf{Project}: AGV-based Virtual Simulation for Automated Warehouse Logistics – VINFAST Hai Phong
+        \begin{itemize}
+            \item Sketched AGV/AMR traffic intersections using AutoCAD and simulated their operations using Visual Components Premium 4.6.
+            \item Monitored and analyzed AGV/AMR behavior, identified errors, and troubleshooting.
+            \item Supervisor: Mr. Nguyen Ngoc Khanh (\href{mailto:khanh.nn@etek.com.vn}{\raisebox{-0.05\height}Email})
+        \end{itemize}
+    \end{itemize}
+    \vspace{-0.2cm}
+\end{minipage}
+}
+\end{tabularx}
+
+\vspace{-0.2cm}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Collaborator} & \hfill Hanoi, Vietnam \\[3.75pt]
+Vietnam E-Commerce and Digital Economy Agency, Ministry of Industry and Trade & \hfill Mar 2025 - May 2025 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item \textbf{Project}: National E-Commerce Website Development
+        \begin{itemize}
+            \item Coordinated with SMEs across Dak Nong and An Giang province to develop e-commerce platforms.
+            \item Assisted in website design, content management, and prepared technical mannual documents.
+            \item Supervisor: Ms. Doan Ngoc Lan (\href{mailto:}{\raisebox{-0.05\height}Email})
+        \end{itemize}
+    \end{itemize}
+    \vspace{-0.2cm}
+\end{minipage}
+}
+\end{tabularx}
+
+%Awards
+\section{Honors and Awards}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{DiscoverNUS \& NUS ASEAN Master’s Scholarship} & \hfill Aug 2025 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item Selected as one of 20 excellent VNU students received fully-funded scholarship from NUS.
+    \end{itemize}
+\end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{ASEAN in Today’s World 2025 (AsTW)} & \hfill Feb 2025 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item Selected as one of 04 VNU representatives to participate in AsTW program in Indonesia funded by Kyushu University
+        \item Host: Faculty of Law, Universitas Gadjah Mada, Indonesia (UGM)
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{TOSHIBA Scholarship} & \hfill Sept 2024 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item Selected as one of 20 excellent VNU undergraduates and graduates received the scholarship funded by TOSHIBA International Foundation.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Temasek Foundation Specialist’s Community Action \&
+Leadership Exchange Program (TF-SCALE)} & \hfill Feb 2024 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item Selected as one of 20 excellent VNU representatives to participate in TF-SCALE program in Vietnam and Singapore
+        \item Host: Vietnam National University, Hanoi and Ngee Ann Polytechnic
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{The 2022 South-East Asia Circuit and System Society Hackathon (SEACAS Hackathon)} & \hfill Dec 2022 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item Received Fighting Spirit Prize in the competition
+        \item Host: Information Technology Institute, VNU, Hanoi and IEEE CAS Association
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Academic Scholarship for Excellent Student} & \hfill Fall 2021 - Spring 2025 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item Six-semester recipient
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\section{Publications}
+%\begin{refsection}[citations.bib]
+%\nocite{*}
+%\printbibliography[heading=none]
+%\end{refsection}
+\begin{enumerate}
+    \item \textbf{Long Nguyen Khac}. et al. \textit{Adaptive Fuzzy Logic in Backstepping Control for 3-DOF Parallel Robot}. International Conference on Advances in Information and Communication Technology, doi: \href{https://doi.org/10.1007/978-3-031-80943-9_57}{10.1007/978-3-031-80943-9\_57}.
+    \begin{itemize}
+        \item \textit{\underline{Main highlights:} an adaptive fuzzy logic control system integrated with backstepping control for a 3-DOF delta robot.}
+    \end{itemize}
+    \item \textbf{Long Nguyen Khac}. et al. \textit{YOLOv5s Model with Applied Activation Functions for Personal Protective Equipment Detection in Construction Sites}. Proceedings of National Conference on Smart Technology Applications in Industry 4.0 Smart City, and Sustainability. (2023)
+    \begin{itemize}
+        \item \textit{\underline{Main highlights:} a deep learning-based approach using YOLOv5s with 06 activation functions with a new dataset of 2632 images for detecting PPE.}
+    \end{itemize}
+\end{enumerate}
+%----------------------------------------------------------------------------------------
+%	TALKS
+%----------------------------------------------------------------------------------------
+\section{Talks}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{The 3rd International Conference ICTA 2024} & \hfill Phu Tho, Vietnam \\[3.75pt]
+\textbf{Mechatronics and Automation} & \hfill Nov 2024 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{}
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\vspace{-0.4cm}
+\section{Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{General skills:} &  \begin{minipage}[t]{\linewidth}
+    Mathematical modeling, control systems designing, embedded programming, mechanical designing
+\end{minipage}\\
+\textbf{Programming Skills:} &  \begin{minipage}[t]{\linewidth}
+    Matlab, Python, Embedded C/C++
+\end{minipage}\\
+\textbf{Softwares and Frameworks:} &  \begin{minipage}[t]{\linewidth}
+    Matlab/Simulink, Solidworks, Ansys, PyTorch
+\end{minipage}\\
+\textbf{Spoken languages:} &  \begin{minipage}[t]{\linewidth}
+    Vietnamese (Native), English (IELTS 6.5: Writing 7.0)
+\end{minipage}\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	Specialization Certificate
+%----------------------------------------------------------------------------------------
+
+%\section{Specialization Certificates}
+
+%\begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \textbf{Deep Learning} & \hfill Coursera \\[3.75pt]
+% Multi-course specialization & \hfill Sep 2022 - Nov 2022 \\[3.75pt]
+% \multicolumn{2}{@{}X@{}}{
+% \begin{minipage}[t]{\linewidth}
+%     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+%         \item Verified at: \href{https://coursera.org/share/cefa41c708be01b21ceb0c3fb6ab8867}{\raisebox{-0.05\height}\aiCourseraSquare \ Click here}
+%         \item Course Certificates Completed: Neural Networks and Deep Learning, Structuring Machine Learning Projects, Sequence Models, Improving Deep Neural Networks, Convolutional Neural Networks.
+%     \end{itemize}
+% \end{minipage}
+% }
+% \end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	Reference
+%----------------------------------------------------------------------------------------
+
+\section{References}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Prof. Her-Terng Yau} & \hfill Director of AIM-HI, National Chung Cheng University \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item Website: \href{https://scholar.google.com/citations?user=_ILk_K0AAAAJ\&hl=en}{\raisebox{-0.05\height}\aiGoogleScholarSquare \ Her-Terng Yau}
+        \item Contact: \href{mailto:yauherterng@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ yauherterng@gmail.com}
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Assoc. Prof. Nguyen Nhu Tung} & \hfill Senior Lecturer, Faculty of Engineering and Technology, VNUIS \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item Website: \href{https://scholar.google.com/citations?user=oTT3lFwAAAAJ\&hl=en\&oi=ao}{\raisebox{-0.05\height}\aiGoogleScholarSquare \ Nhu-Tung Nguyen}
+        \item Contact: \href{mailto:tungnn@vnu.edu.vn}{\raisebox{-0.05\height}\faEnvelope \ tungnn@vnu.edu.vn}
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Dr. Le Xuan Hai} & \hfill Vice Dean, Falculty of Engineering and Technology, VNUIS \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item Website: \href{https://scholar.google.com/citations?user=PXS0BHMAAAAJ\&hl=vi}{\raisebox{-0.05\height}\aiGoogleScholarSquare \ Hai Xuan Le}
+        \item Contact: \href{mailto:hailx@vnu.edu.vn}{\raisebox{-0.05\height}\faEnvelope \ hailx@vnu.edu.vn}
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+\end{document}
