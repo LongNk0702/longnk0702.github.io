@@ -212,14 +212,12 @@ li {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    margin-top: 2rem;
 }
 
 .reference {
     background-color: var(--light-gray);
     padding: 1.5rem;
     border-radius: 5px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .reference h3 {
