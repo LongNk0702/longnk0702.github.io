@@ -210,14 +210,15 @@ li {
 /* References styles */
 .reference-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
 }
 
 .reference {
     background-color: var(--light-gray);
     padding: 1.5rem;
     border-radius: 5px;
+    break-inside: avoid;
 }
 
 .reference h3 {
