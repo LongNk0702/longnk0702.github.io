@@ -14,8 +14,7 @@ Whenever you update your CV or site content, this repo automatically rebuilds an
 ├── cv.tex            # LaTeX CV source
 ├── citations.bib     # BibTeX references
 ├── Makefile          # For building CV locally
-├── README.md         # Project documentation
-
+└── README.md         # Project documentation
 
 ---
 
