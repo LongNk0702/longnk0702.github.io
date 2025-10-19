@@ -8,6 +8,13 @@ Whenever you update your CV or site content, this repo automatically rebuilds an
 ---
 
 ## 🧩 Repository Overview
+.
+├── index.html        # Main personal website
+├── styles.css        # Website styling
+├── cv.tex            # LaTeX CV source
+├── citations.bib     # BibTeX references
+├── Makefile          # For building CV locally
+├── README.md         # Project documentation
 
 
 ---
@@ -50,7 +57,9 @@ Whenever you update your CV or site content, this repo automatically rebuilds an
 
   **Settings → Pages → Source → `Deploy from a branch` → Branch: `build`**
 
-Your CV will then be accessible at:
+Your CV will then be accessible at:  
+👉 [https://longnk0702.github.io/](https://longnk0702.github.io/)
+
 
 ---
 
@@ -61,3 +70,20 @@ To compile your CV manually on your computer:
 make
 make clean     # removes intermediate files
 make distclean # full cleanup
+
+---
+
+## 👤 Author
+
+**Long Nguyen Khac**  
+📧 [nk.long723@gmail.com](mailto:nk.long723@gmail.com)  
+🔗 [GitHub](https://github.com/LongNK0702) | [LinkedIn](https://www.linkedin.com/in/longnk0702/)
+
+> A passionate robotics learner and developer from Vietnam.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — feel free to reuse and modify with attribution.
+
