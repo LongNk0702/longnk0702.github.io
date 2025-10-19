@@ -62,9 +62,7 @@ Your CV will then be accessible at:
 
 
 ---
-
 ## 🧠 Compiling Locally
-
 To compile your CV manually on your computer:
 ```bash
 make
@@ -72,7 +70,6 @@ make clean     # removes intermediate files
 make distclean # full cleanup
 
 ---
-
 ## 👤 Author
 
 **Long Nguyen Khac**  
@@ -81,9 +78,4 @@ make distclean # full cleanup
 
 > A passionate robotics learner and developer from Vietnam.
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — feel free to reuse and modify with attribution.
 
