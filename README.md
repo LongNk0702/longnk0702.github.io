@@ -57,8 +57,6 @@ Whenever you update your CV or site content, this repo automatically rebuilds an
 
   **Settings → Pages → Source → `Deploy from a branch` → Branch: `build`**
 
-Your CV will then be accessible at:  
-👉 [https://longnk0702.github.io/](https://longnk0702.github.io/)
 
 ---
 ## 👤 Author
