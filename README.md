@@ -60,15 +60,6 @@ Whenever you update your CV or site content, this repo automatically rebuilds an
 Your CV will then be accessible at:  
 👉 [https://longnk0702.github.io/](https://longnk0702.github.io/)
 
-
----
-## 🧠 Compiling Locally
-To compile your CV manually on your computer:
-```bash
-make
-make clean     # removes intermediate files
-make distclean # full cleanup
-
 ---
 ## 👤 Author
 
