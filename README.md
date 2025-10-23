@@ -7,7 +7,7 @@ Whenever you update your CV or site content, this repo automatically rebuilds an
 
 ---
 
-## 🧩 Repository Overview
+## Repository Overview
 .
 ├── index.html        # Main personal website
 ├── styles.css        # Website styling
@@ -19,29 +19,29 @@ Whenever you update your CV or site content, this repo automatically rebuilds an
 
 ---
 
-## ✨ Features
+## Features
 
-- 🧠 **autoCV LaTeX template**  
+- **autoCV LaTeX template**  
   Automatically compiles `cv.tex` → `cv.pdf` and publishes to GitHub Pages on each commit.  
   Includes support for:
   - Font Awesome icons in the header  
   - Publications auto-imported from `citations.bib`  
   - Clean tabular layout for Education, Experience, and Projects  
 
-- 💻 **Personal Website (HTML + CSS)**  
+-  **Personal Website (HTML + CSS)**  
   - Sections for Education, Research, Teaching, Work, Awards, and Skills  
   - Font Awesome + Academicons integration  
   - Responsive and lightweight (no JavaScript)  
 
-- ⚙️ **Continuous Deployment**  
+-  **Continuous Deployment**  
   - GitHub Actions auto-build your LaTeX CV on push  
   - Deploys both your website and PDF CV to GitHub Pages  
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
-### 1️⃣ Setup
+### 1️ Setup
 - Fork this repository *(or click **Use this template**)*
 - Give workflow **write permissions**:  
   `Settings → Actions → General → Workflow permissions → Read and Write`
@@ -50,7 +50,7 @@ Whenever you update your CV or site content, this repo automatically rebuilds an
   - `index.html` and `styles.css` → personalize your website
 - Commit and push changes.
 
-### 2️⃣ Build & Publish
+### 2️ Build & Publish
 - The GitHub Action automatically compiles your LaTeX CV to PDF.
 - The compiled CV will appear under the **`build` branch**.
 - Set GitHub Pages to deploy from that branch:
@@ -59,7 +59,7 @@ Whenever you update your CV or site content, this repo automatically rebuilds an
 
 
 ---
-## 👤 Author
+##  Author
 
 **Long Nguyen Khac**  
 📧 [nk.long723@gmail.com](mailto:nk.long723@gmail.com)  
