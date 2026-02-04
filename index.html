@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Long Nguyen Khac | Automation & Informatics</title>
+    <title>Long Nguyen Khac | Automation & Informatics (AAI)</title>
     
     <!-- Tailwind CSS (No build step required for this file) -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -84,13 +84,10 @@
         <div class="max-w-4xl mx-auto text-center">
             <div class="inline-block p-1 rounded-full bg-gradient-to-tr from-primary-500 to-blue-300 mb-6">
                 <div class="bg-white rounded-full p-1">
-                    <!-- Profile Picture -->
-                    <!-- Converted Google Drive link to direct display format -->
-                    <img 
-                        src="https://drive.google.com/uc?export=view&id=1rcxAsLYK0qplHtGQXE4i25f40ns0bsEu" 
-                        alt="Long Nguyen Khac" 
-                        class="w-32 h-32 rounded-full object-cover shadow-inner"
-                    >
+                    <!-- Placeholder for Avatar -->
+                    <div class="w-24 h-24 rounded-full bg-slate-100 flex items-center justify-center text-3xl text-primary-600">
+                        <i class="fas fa-user"></i>
+                    </div>
                 </div>
             </div>
             <h1 class="text-4xl md:text-6xl font-bold text-slate-900 mb-4 tracking-tight">Long Nguyen Khac</h1>
@@ -120,9 +117,9 @@
                 </div>
                 <h3 class="text-lg font-semibold text-slate-900 mb-1">VNU - International School</h3>
                 <p class="text-primary-600 font-medium mb-2">B.Eng. Automation & Informatics</p>
-                <p class="text-sm text-slate-500 mb-4">2021 - 2026 • GPA: 3.71/4.0</p>
+                <p class="text-sm text-slate-500 mb-4">2021 - 2027 • GPA: 3.71/4.0</p>
                 <div class="flex gap-2">
-                    <span class="px-2 py-1 bg-green-100 text-green-700 text-xs rounded-md font-medium">Ranked #1</span>
+                    <span class="px-2 py-1 bg-green-100 text-green-700 text-xs rounded-md font-medium">Ranked #3 in my major (Top 4% in my cohort) </span>
                     <a href="#" class="px-2 py-1 bg-slate-100 text-slate-600 text-xs rounded-md hover:bg-slate-200">Transcript ↗</a>
                 </div>
             </div>
@@ -131,9 +128,9 @@
                     <i class="fas fa-university text-6xl text-primary-600"></i>
                 </div>
                 <h3 class="text-lg font-semibold text-slate-900 mb-1">National University of Singapore</h3>
-                <p class="text-primary-600 font-medium mb-2">DiscoverNUS Exchange</p>
+                <p class="text-primary-600 font-medium mb-2">DiscoverNUS Semester Exchange Program</p>
                 <p class="text-sm text-slate-500 mb-4">Aug 2025 - Dec 2025</p>
-                <p class="text-sm text-slate-600">School of Electrical and Electronic Engineering. Focus on Robot Mechanics and Control.</p>
+                <p class="text-sm text-slate-600">College of Design and Engineering.</p>
             </div>
         </section>
 
@@ -144,31 +141,42 @@
                 <span class="hidden md:block h-px flex-1 bg-slate-200 ml-6"></span>
             </div>
 
-            <!-- Changed grid to cols-3 to accommodate 5 items better -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Card 1: NUS -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition duration-300">
                     <div class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 mb-4">
-                        <i class="fas fa-university"></i>
+                        <i class="fas fa-flag"></i>
                     </div>
-                    <h3 class="font-bold text-slate-900">Singapore (NUS)</h3>
-                    <p class="text-xs text-primary-600 font-semibold uppercase tracking-wide mb-2">DiscoverNUS</p>
-                    <p class="text-sm text-slate-600 mb-3">Semester Exchange Program. Fully-funded scholarship recipient.</p>
-                    <span class="text-xs text-slate-400">Aug - Dec 2025</span>
+                    <h3 class="font-bold text-slate-900">Japan</h3>
+                    <p class="text-xs text-primary-600 font-semibold uppercase tracking-wide mb-2">Kyushu University</p>
+                    <p class="text-sm text-slate-600 mb-3">Kyushu University Exchange Program Scholarship recipient.</p>
+                    <span class="text-xs text-slate-400">2026</span>
                 </div>
-
-                <!-- Card 2: NTU -->
+                
+                <!-- Card 2 -->
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition duration-300">
-                    <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 mb-4">
-                        <i class="fas fa-microscope"></i>
+                    <div class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 mb-4">
+                        <i class="fas fa-flag"></i>
                     </div>
-                    <h3 class="font-bold text-slate-900">Singapore (NTU)</h3>
-                    <p class="text-xs text-primary-600 font-semibold uppercase tracking-wide mb-2">Global Connect Fellowship</p>
-                    <p class="text-sm text-slate-600 mb-3">Research fellowship at School of EEE. Fully funded.</p>
-                    <span class="text-xs text-slate-400">Jan 2026</span>
+                    <h3 class="font-bold text-slate-900">Singapore</h3>
+                    <p class="text-xs text-primary-600 font-semibold uppercase tracking-wide mb-2">Nanyang Technology University</p>
+                    <p class="text-sm text-slate-600 mb-3">NTU-Global Connect Fellowship Scholarship recipient.</p>
+                    <span class="text-xs text-slate-400">2026</span>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition duration-300">
+                    <div class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 mb-4">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900">Singapore</h3>
+                    <p class="text-xs text-primary-600 font-semibold uppercase tracking-wide mb-2">National University of Singapore</p>
+                    <p class="text-sm text-slate-600 mb-3">DiscoverNUS Scholarship recipient.</p>
+                    <span class="text-xs text-slate-400">2025</span>
                 </div>
 
-                <!-- Card 3: Taiwan -->
+                
+                <!-- Card 4 -->
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition duration-300">
                     <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center text-red-600 mb-4">
                         <i class="fas fa-map-marker-alt"></i>
@@ -179,7 +187,7 @@
                     <span class="text-xs text-slate-400">Apr 2025</span>
                 </div>
 
-                <!-- Card 4: Indonesia -->
+                <!-- Card 5 -->
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition duration-300">
                     <div class="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 mb-4">
                         <i class="fas fa-globe-asia"></i>
@@ -190,14 +198,14 @@
                     <span class="text-xs text-slate-400">Feb 2025</span>
                 </div>
 
-                 <!-- Card 5: Vietnam-Singapore -->
+                 <!-- Card 6 -->
                  <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition duration-300">
                     <div class="w-12 h-12 bg-orange-50 rounded-xl flex items-center justify-center text-orange-600 mb-4">
                         <i class="fas fa-users"></i>
                     </div>
                     <h3 class="font-bold text-slate-900">Vietnam-Singapore</h3>
-                    <p class="text-xs text-primary-600 font-semibold uppercase tracking-wide mb-2">TF-SCALE</p>
-                    <p class="text-sm text-slate-600 mb-3">Leadership exchange with Ngee Ann Polytechnic.</p>
+                    <p class="text-xs text-primary-600 font-semibold uppercase tracking-wide mb-2">The Temasek Foundation Specialists' Community Action and Leadership Exchange (TF SCALE) 2024</p>
+                    <p class="text-sm text-slate-600 mb-3">Exchange with Ngee Ann Polytechnic (Singapore) and Universitas Gadjah Mada (Indonesia).</p>
                     <span class="text-xs text-slate-400">Feb 2024</span>
                 </div>
             </div>
@@ -453,11 +461,11 @@
                     </div>
                     <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 bg-white rounded-xl shadow-sm border border-slate-100">
                         <div class="flex justify-between items-center mb-1">
-                            <h3 class="font-bold text-slate-900">Engineering Intern</h3>
-                            <time class="text-xs text-slate-400">Mar - May 2025</time>
+                            <h3 class="font-bold text-slate-900">Research Student</h3>
+                            <time class="text-xs text-slate-400">Aug 2022-Present</time>
                         </div>
-                        <p class="text-primary-600 text-sm font-medium mb-2">ETEK Automation Solutions</p>
-                        <p class="text-slate-600 text-xs">AGV-based Virtual Simulation for VINFAST Hai Phong.</p>
+                        <p class="text-primary-600 text-sm font-medium mb-2">Intelligent Control and Artificial Intelligence Lab, VNUIS</p>
+                        <p class="text-slate-600 text-xs">Supervisor: Assoc. Prof. Nguyen Nhu Tung, Dr. Le Xuan Hai</p>
                     </div>
                 </div>
 
@@ -470,6 +478,21 @@
                         <div class="flex justify-between items-center mb-1">
                             <h3 class="font-bold text-slate-900">Teaching Assistant</h3>
                             <time class="text-xs text-slate-400">2023 - 2024</time>
+                        </div>
+                        <p class="text-primary-600 text-sm font-medium mb-2">Faculty of Technology and Engineering, VNUIS</p>
+                        <p class="text-slate-600 text-xs">Assisted in PLC Programming, Modeling Control Systems, and Microprocessors.</p>
+                    </div>
+                </div>
+
+                <!-- Work Item -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-primary-500 text-white shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 shadow">
+                         <i class="fas fa-chalkboard-teacher text-sm"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 bg-white rounded-xl shadow-sm border border-slate-100">
+                        <div class="flex justify-between items-center mb-1">
+                            <h3 class="font-bold text-slate-900">Collaborator</h3>
+                            <time class="text-xs text-slate-400"> June - September</time>
                         </div>
                         <p class="text-primary-600 text-sm font-medium mb-2">VNUIS</p>
                         <p class="text-slate-600 text-xs">Assisted in PLC Programming, Modeling Control Systems, and Microprocessors.</p>
@@ -484,7 +507,7 @@
     <footer class="bg-white border-t border-slate-200 py-12">
         <div class="max-w-6xl mx-auto px-4 text-center">
             <p class="text-slate-500 text-sm mb-4">
-                &copy; 2026 Long Nguyen Khac. Built with minimalism in mind.
+                &copy; 2026 Long Nguyen Khac
             </p>
             <div class="flex justify-center space-x-6 text-slate-400">
                 <a href="mailto:nk.long0702@gmail.com" class="hover:text-primary-600 transition"><i class="fas fa-envelope"></i></a>
