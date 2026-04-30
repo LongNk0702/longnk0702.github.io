@@ -26,9 +26,9 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a final-year student majoring in mechatronics at Vietnam National University, Hanoi (VNU), where I am currently working as a student research at the Intelligent Control and AI Laboratory (ICAIL). My research experience includes deep learning-based engineering applications, adaptive control for Delta parallel robots, data-driven methods for CNC machining systems at AIM-HI, CCU, Taiwan, and underwater wireless power transfer for autonomous underwater vehicles at EEE, NTU, Singapore. I am currently deepening my research in intelligent control and underwater wireless power transfer for next-generation autonomous robotic systems. My research interests include robotics, autonomous systems, advanced control, wireless power transfer, and embodied artificial intelligence.
+I am an aspiring robotics researcher and life-long learner. I am currently a final-year student in Automation and Informatics at Vietnam National University, Hanoi (VNU), where I'm working as a research student at Intelligent Control and AI Laboratory (ICAIL), under supervision of Assoc. Prof. TUNG Nguyen Nhu and Dr. HAI-Le Xuan. I was a visiting researcher at AIM-HI, National Chung Cheng Univeristy, Taiwan from May 2025 to July 2025, supervised by Prof. Her-Terng Yau, and a research fellow of the Global Connect Fellowship (GCF) at School of Electrical and Electronic Engineering, NTU, Singapore from Feb 2026 to Mar 2026, supervised by Asst. Prof. Yun Yang. My research interests include but are not limited to mechanical design, robotics, control, wireless power transfer, and AI.
 
-Research goal: To develop intelligent autonomous robotic systems capable of operating reliably in complex real-world environments.
+Research goal: To develop autonomous robotic technologies through intelligent control and wireless energy transfer for long-endurance real-world applications.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
