@@ -50,10 +50,10 @@ cv:
 
     Experience:
       - company: Water & Energy Research Lab, School of Electrical and Electronic
-        location: Nanyang Technological University, Singapore
+        location: Nanyang Technological University, SG
         position: Research Fellow
-        start_date: 02-2026
-        end_date: 03-2026
+        start_date: 2026
+        end_date: 2026
         summary: Advanced 3D Underwater Wireless Power Transfer System (UWPT) for Autonomous Underwater Vehicles (AUVs)
         highlights:
           - Optimizing mechanical design of AUVs
@@ -63,8 +63,8 @@ cv:
       - company: Advanced Institute of Manufacturing with High-Tech Innovations
         position: Visiting Research Student
         location: National Chung Cheng University, Taiwan
-        start_date: 05-2025
-        end_date: 07-2025
+        start_date: 2025
+        end_date: 2025
         summary: Smart Sensing Technology for Smart Manufacturing
         highlights:
           - Developed a data-driven approach to estimate dynamic cutting forces in milling using 12 large-scale datasets, combining nonlinear system analysis with sparse identification to model and predict cutting forces
@@ -79,14 +79,14 @@ cv:
       - company: ETEK Automation Solutions JSC
         position: Engineering Intern
         location: Hanoi, Vietnam
-        start_date: 03-2025
-        end_date: 05-2025
+        start_date: 2025
+        end_date: 2025
 
       - company: Vietnam E-Commerce and Digital Economy Agency, Ministry of Industry and Trade
         position: Collaborator
         location: Hanoi, Vietnam
-        start_date: 07-2023
-        end_date: 09-2023
+        start_date: 2023
+        end_date: 2023
 
     # Volunteer:
     #   - company: People's Climate March
@@ -118,6 +118,7 @@ cv:
       - title: Taiwan Experience Education Program (TEEP) Scholarship
         authors: 
           - "Ministry of Education, Taiwan"
+        date: 2025
         awarder: Ministry of Education, Taiwan
         summary: Selected as one of 28 global students receiving a fully funded scholarship  to intern at National Chung Cheng University (CCU).
 
@@ -148,27 +149,27 @@ cv:
     Skills:
     - name: Control Systems & Robotics
       level: Advanced
-      icon: fa-solid fa-gears
+      # icon: fa-solid fa-gears
       keywords: "PID Control, Model Predictive Control (MPC), Adaptive Control, Mechatronic Systems, Robotic Manipulators, Autonomous Navigation"
 
     - name: Autonomous Underwater Engineering
       level: Advanced
-      icon: fa-solid fa-water
+      # icon: fa-solid fa-water
       keywords: "Autonomous Underwater Vehicles (AUV), Underwater Wireless Power Transfer (UWPT), Hydrodynamic Design, Marine Robotics, Underwater Energy Systems"
 
     - name: Simulation & Engineering Modeling
       level: Advanced
-      icon: fa-solid fa-chart-line
+      # icon: fa-solid fa-chart-line
       keywords: "MATLAB/Simulink, SolidWorks, ANSYS CFD, Dynamic System Modeling, Circuit Analysis, Optimization"
 
     - name: Artificial Intelligence & Smart Manufacturing
       level: Intermediate
-      icon: fa-solid fa-brain
+      # icon: fa-solid fa-brain
       keywords: "Machine Learning, Computer Vision, YOLO, Data-Driven Modeling, Intelligent Manufacturing, Digital Twin Concepts"
 
     - name: Programming & Embedded Development
       level: Intermediate
-      icon: fa-solid fa-code
+      # icon: fa-solid fa-code
       keywords: "Python, C/C++, Arduino, Node.js, Git/GitHub, Embedded Prototyping"
       Languages:
         - name: German
@@ -179,19 +180,19 @@ cv:
 
     Interests:
     - name: Autonomous Systems
-      icon: fa-solid fa-robot
+      # icon: fa-solid fa-robot
       keywords: "Robotics, AUV, Intelligent Systems"
 
     - name: Engineering & Technology
-      icon: fa-solid fa-microchip
+      # icon: fa-solid fa-microchip
       keywords: "AI, Smart Manufacturing, Innovation"
 
     - name: Outdoor Activities
-      icon: fa-solid fa-mountain
+      # icon: fa-solid fa-mountain
       keywords: "Running, Hiking, Exploration"
 
     - name: Personal Development
-      icon: fa-solid fa-book
+      # icon: fa-solid fa-book
       keywords: "Reading, Learning, Growth"
     
     Certificates:
