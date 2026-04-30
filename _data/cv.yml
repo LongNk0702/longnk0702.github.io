@@ -18,16 +18,16 @@ cv:
     street: Alley 57, Group 14, Hoa Binh Street
     city: Yen Nghia Ward, Ha Dong
     region: Hanoi
-    postalCode: 12100
+    # postalCode: 12100
     countryCode: VN
 
   sections:
     Education:
-      - institution: Vietnam National University, Hanoi
+      # - institution: 
         location: Hanoi, Vietnam
         url: https://en.vnu.edu.vn/
-        area: Automation and Informatics
-        studyType: Bachelor of Engineering
+        area: B.Eng in Automation and Informatics
+        studyType: Vietnam National University, Hanoi
         start_date: 2021
         end_date: 2026
         score: ""
