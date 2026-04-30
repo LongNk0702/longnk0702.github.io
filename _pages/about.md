@@ -26,6 +26,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 I am an aspiring robotics researcher and life-long learner. I am currently a final-year student in Automation and Informatics at Vietnam National University, Hanoi (VNU), where I'm working as a research student at Intelligent Control and AI Laboratory (ICAIL), under supervision of Assoc. Prof. TUNG Nguyen Nhu and Dr. HAI-Le Xuan. I was a visiting researcher at AIM-HI, National Chung Cheng Univeristy, Taiwan from May 2025 to July 2025, supervised by Prof. Her-Terng Yau, and a research fellow of the Global Connect Fellowship (GCF) at School of Electrical and Electronic Engineering, NTU, Singapore from Feb 2026 to Mar 2026, supervised by Asst. Prof. Yun Yang. My research interests include but are not limited to mechanical design, robotics, control, wireless power transfer, and AI.
 
 Research goal: To develop autonomous robotic technologies through intelligent control and wireless energy transfer for long-endurance real-world applications.
