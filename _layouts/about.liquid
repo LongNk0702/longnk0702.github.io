@@ -73,6 +73,11 @@ layout: default
       </div>
     {% endif %}
 
+    {%- if page.visitor_map %}
+          <!-- Visitor map -->
+          {%- include visitor-map.html %}
+          {%- endif %}
+      
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
