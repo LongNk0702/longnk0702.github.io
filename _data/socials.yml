@@ -18,7 +18,7 @@ instagram_id: k.long.72
 whatsapp_number: "84358036759" # international format: no +, no spaces, no leading 0
 
 # RSS
-rss_icon: false # set true if you want to show RSS icon
+# rss_icon: false # set true if you want to show RSS icon
 
 # custom_social:
 #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png
