@@ -1,238 +1,299 @@
 cv:
-  name: Long Nguyen Khac
-  label: Undergraduate Student | Research Student
+  name: Nguyen Khac Long
+  label: Final-year Automation and Informatics student | Robotics & Control Research Student
   email: nk.long723@gmail.com
+  phone: "+84 358 036 759"
   location: Hanoi, Vietnam
   image: ""
-  summary: I am a final-year Automation and Informatics student with a strong curiosity for intelligent autonomous systems, especially in autonomous underwater vehicles, advanced control, robotics, underwater wireless power transfer, and AI-driven engineering.
+  website: https://longnk0702.github.io/
+  summary: >-
+    I am a final-year B.Eng. student in Automation and Informatics at Vietnam National University, Hanoi, with research interests in robotics, control systems, autonomous underwater vehicles, underwater wireless power transfer, and AI-driven engineering. My current goal is to develop long-endurance autonomous robotic systems by integrating intelligent control, wireless energy transfer, mechanical design, and data-driven modeling.
 
   social_networks:
-    # - network: X
-    #   username: AlbertEinstein
     - network: GitHub
       username: longnk0702
     - network: LinkedIn
       username: longnk0702
+    - network: Google Scholar
+      username: HCHDS8oAAAAJ
 
   address:
-    street: Alley 57, Group 14, Hoa Binh Street
-    city: Yen Nghia Ward, Ha Dong
-    region: Hanoi
-    # postalCode: 12100
+    city: Hanoi
     countryCode: VN
 
   sections:
     Education:
-      # - institution: 
+      - institution: Vietnam National University, Hanoi (VNU)
         location: Hanoi, Vietnam
         url: https://en.vnu.edu.vn/
-        area: B.Eng in Automation and Informatics
-        studyType: Vietnam National University, Hanoi
-        start_date: 2021
-        end_date: 2026
-        score: ""
-        courses: "Theory of Control"
+        area: Automation and Informatics
+        studyType: B.Eng.
+        start_date: 2021-09
+        end_date: 2026-12
+        score: "GPA: 3.71/4.00 | Top 4% in cohort"
         highlights:
-          - Robotics
-          - AI
-          - Electric Drives & Control
-          - Embedded Systems
+          - "Relevant areas: control systems, robotics, embedded systems, electric drives, automation, and AI."
+          - "QS World University Ranking by Subject 2025: Engineering & Technology #386."
 
-      # - institution: National University of Singapore
-      #   location: Singapore
-      #   area: Mechanical Engineering
-      #   studyType: Semester Exchange Program
-      #   start_date: Aug 2025
-      #   end_date: Dec 2025
-      #   highlights:
-      #     - Description 1.
-      #     - Description 2.
+      - institution: National University of Singapore (NUS)
+        location: Singapore
+        url: https://nus.edu.sg/
+        area: DiscoverNUS Semester Exchange Program
+        studyType: Semester Exchange
+        start_date: 2025-08
+        end_date: 2025-12
+        highlights:
+          - "Selected as one of 8 VNU students for the fully funded DiscoverNUS exchange scholarship."
+          - "QS World University Ranking by Subject 2025: Engineering & Technology #12."
 
     Experience:
-      - company: Water & Energy Research Lab, School of Electrical and Electronic
-        location: Nanyang Technological University, SG
-        position: Research Fellow
-        start_date: 2026
-        end_date: 2026
-        summary: Advanced 3D Underwater Wireless Power Transfer System (UWPT) for Autonomous Underwater Vehicles (AUVs)
+      - company: Water & Energy Research Lab, School of Electrical and Electronic Engineering, Nanyang Technological University (NTU)
+        location: Singapore
+        position: Research Fellow, Global Connect Fellowship
+        start_date: 2026-02
+        end_date: present
+        summary: "Project: Advanced 3D Wireless Power Transfer System for Autonomous Underwater Vehicles."
         highlights:
-          - Optimizing mechanical design of AUVs
-          - Researching advanced communication for AUVs.
-          - Analyze power transfer performance and efficiency.
+          - "Studied relay-coil-enhanced underwater wireless power transfer for long-endurance AUV charging."
+          - "Optimized AUV mechanical design concepts with attention to hydrodynamic efficiency and charging integration."
+          - "Modeled spatial WPT equivalent circuits and analyzed power-transfer efficiency under different load and frequency conditions."
+          - "Explored communication improvement between transmitter and receiver for underwater charging systems."
 
-      - company: Advanced Institute of Manufacturing with High-Tech Innovations
-        position: Visiting Research Student
-        location: National Chung Cheng University, Taiwan
-        start_date: 2025
-        end_date: 2025
-        summary: Smart Sensing Technology for Smart Manufacturing
+      - company: AISC Lab, AIM-HI Institute, National Chung Cheng University
+        location: Chiayi, Taiwan
+        position: Research Intern
+        start_date: 2025-05
+        end_date: 2025-07
+        summary: "Project: Smart Sensing Technology for Smart Manufacturing."
         highlights:
-          - Developed a data-driven approach to estimate dynamic cutting forces in milling using 12 large-scale datasets, combining nonlinear system analysis with sparse identification to model and predict cutting forces
-          - Results: Achieved moderate prediction accuracy with R2 between 0.5–0.6 compared to ground-truth measurements.
+          - "Developed a data-driven approach to estimate dynamic cutting forces in milling using 12 large-scale datasets."
+          - "Combined nonlinear system analysis with sparse identification to model and predict cutting forces."
+          - "Achieved moderate prediction accuracy with R² between 0.5 and 0.6 compared with ground-truth measurements."
 
-      - company: Intelligent Control and Artificial Intelligence Lab
-        position: Research Student
-        location: International School, Vietnam National University, Hanoi, Vietnam
-        start_date: 2022
-        end_date: 2026
+      - company: AISC Lab, AIM-HI Institute, National Chung Cheng University
+        location: Remote
+        position: Remote Research Student
+        start_date: 2025-08
+        end_date: present
+        summary: "Project: Prediction of cutting force model using AI and data-driven methods."
+        highlights:
+          - "Implementing Random Forest and XGBoost models together with data-driven approaches using 27 large-scale datasets from a Taguchi-designed experiment."
+          - "Targeting high prediction accuracy with expected R² above 0.9."
+
+      - company: Intelligent Control and Artificial Intelligence Lab, VNU International School
+        location: Hanoi, Vietnam
+        position: Student Researcher
+        start_date: 2022-09
+        end_date: present
+        summary: "Research on robotics, adaptive control, computer vision, and intelligent systems."
+        highlights:
+          - "Designed the mechanical model and physical prototype of a 3-DOF delta robot."
+          - "Implemented adaptive fuzzy logic with backstepping control for robust trajectory tracking under uncertainties."
+          - "Built a dataset of 2,632 construction-site images and trained YOLOv5s with multiple activation functions for PPE detection."
+          - "Achieved Precision 84.8%, Recall 80.2%, mAP@0.5 83.9%, and mAP@0.95 43.6% using SiLU activation."
 
       - company: ETEK Automation Solutions JSC
-        position: Engineering Intern
         location: Hanoi, Vietnam
-        start_date: 2025
-        end_date: 2025
+        position: Engineering Intern
+        start_date: 2025-03
+        end_date: 2025-05
+        summary: "Project: AGV-based virtual simulation for automated warehouse logistics at VinFast Hai Phong."
+        highlights:
+          - "Sketched AGV/AMR traffic intersections using AutoCAD."
+          - "Simulated automated logistics operations using Visual Components Premium 4.6."
+          - "Monitored AGV/AMR behavior, identified errors, and supported troubleshooting."
+
+      - company: Faculty of Engineering and Technology, VNU International School
+        location: Hanoi, Vietnam
+        position: Teaching Assistant
+        start_date: 2023-09
+        end_date: 2024-12
+        summary: "Teaching assistant for control systems and microcontroller laboratory courses."
+        highlights:
+          - "Assisted 30 students across 7 MATLAB/Simulink lab sessions for Modeling and Simulation of Control Systems."
+          - "Mentored 30 students through 15 Embedded C lab sessions using Arduino, STM32, Keil uVision, Arduino IDE, and STM32CubeIDE."
+          - "Supported preparation of tutorial exercises, lab manuals, and debugging guidance."
 
       - company: Vietnam E-Commerce and Digital Economy Agency, Ministry of Industry and Trade
-        position: Collaborator
         location: Hanoi, Vietnam
-        start_date: 2023
-        end_date: 2023
+        position: Collaborator
+        start_date: 2023-07
+        end_date: 2023-09
+        summary: "Project: Consultancy support and sales policy development for the CPAPER e-commerce website."
+        highlights:
+          - "Coordinated with SMEs in Dak Nong and An Giang to support e-commerce platform development."
+          - "Assisted in website design, content management, and technical manual preparation."
 
-    # Volunteer:
-    #   - company: People's Climate March
-    #     position: Lead Organizer
-    #     location: Zurich, Switzerland
-    #     start_date: 2014-04-01
-    #     end_date: 2015-07-01
-    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-    #     highlights:
-    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-    #       - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Most Popular Poster Award
-        authors:
-          - "Nanyang Technological University (NTU)"
-        date: 2026-03-26
-        awarder: Nanyang Technological University (NTU)
-        # url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: Awarded for most popular research poster in the final research presentation in GCF 2026.
-
-      - title: Kyushu University Spring-Semester Exchange Scholarship 2026
-        authors:
-          - "Kyushu University, Japan"
-        date: 2026
-        awarder: Kyushu University, Japan and Vietnam National University, Hanoi
-        summary: Selected as the only VNU student to receive the exchange scholarship at Kyushu University, Japan
-
-      - title: Taiwan Experience Education Program (TEEP) Scholarship
-        authors: 
-          - "Ministry of Education, Taiwan"
-        date: 2025
-        awarder: Ministry of Education, Taiwan
-        summary: Selected as one of 28 global students receiving a fully funded scholarship  to intern at National Chung Cheng University (CCU).
+      - company: Hung STEM Robotics Lab
+        location: Hanoi, Vietnam
+        position: Robotics Education Collaborator
+        start_date: 2022-07
+        end_date: 2022-12
+        summary: "Project: World Robot Olympiad 2022 Vietnam and STEM robotics training."
+        highlights:
+          - "Mentored a student team for WRO 2022 Vietnam and supported LEGO robotics module development."
+          - "Supported 36 LEGO NXT sessions for 20 students at Grammar Newton International Bilingual School, Hanoi."
 
     Publications:
       - title: Adaptive Fuzzy Logic in Backstepping Control for 3-DOF Parallel Robot
         authors:
-          - Long Nguyen Khac, et al.
-        publisher: Springer
+          - "Nguyen Khac Long, et al."
+        publisher: International Conference on Advances in Information and Communication Technology, Springer LNNS
         releaseDate: 2024
         url: https://doi.org/10.1007/978-3-031-80943-9_57
-        summary: an adaptive fuzzy logic control system integrated with backstepping control for a 3-DOF delta robot.
-      - title: YOLOv5s Model with Applied Activation Functions for Personal Protective Equipment Detection in Construction Sites. 
+        summary: "Proposed an adaptive fuzzy logic control system integrated with backstepping control for a 3-DOF delta robot; presented in the Mechatronics and Automation section at ICTA 2024."
+
+      - title: YOLOv5s Model with Applied Activation Functions for Personal Protective Equipment Detection in Construction Sites
         authors:
-          - Long Nguyen Khac, et al.
-        publisher: Proceedings of National Conference on Smart Technology Applications in Industry 4.0 Smart City, and Sustainability (2023)
+          - "Nguyen Khac Long, et al."
+        publisher: Proceedings of National Conference on Smart Technology Applications in Industry 4.0, Smart City, and Sustainability
         releaseDate: 2023
-        # url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: a deep learning-based approach using YOLOv5s with six activation functions and a new dataset of 2,632 images for PPE detection.
+        summary: "Developed a YOLOv5s-based approach with six activation functions and a dataset of 2,632 images for PPE detection in construction sites."
 
-      # - title: Die Grundlage der allgemeinen Relativitätstheorie
-      #   authors:
-      #     - Albert Einstein
-      #   publisher: Annalen der Physik
-      #   releaseDate: 1916-03-20
-      #   url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-      #   summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Awards:
+      - title: NUS Enterprise Summer Programme in Entrepreneurship 2026
+        date: 2026-04
+        awarder: NUS ASEAN SPARK Fellowship
+        summary: "Awarded a fully funded scholarship to join the NUS Enterprise Summer Programme in Entrepreneurship 2026."
 
-    Skills:
-    - name: Control Systems & Robotics
-      level: Advanced
-      # icon: fa-solid fa-gears
-      keywords: "PID Control, Model Predictive Control (MPC), Adaptive Control, Mechatronic Systems, Robotic Manipulators, Autonomous Navigation"
+      - title: Kyushu University Spring-Semester Exchange Scholarship 2026
+        date: 2026-01
+        awarder: Kyushu University and Vietnam National University, Hanoi
+        summary: "Selected as the only VNU student to receive the exchange scholarship in the Department of Mechanical Engineering, Kyushu University, Japan."
 
-    - name: Autonomous Underwater Engineering
-      level: Advanced
-      # icon: fa-solid fa-water
-      keywords: "Autonomous Underwater Vehicles (AUV), Underwater Wireless Power Transfer (UWPT), Hydrodynamic Design, Marine Robotics, Underwater Energy Systems"
+      - title: NTU Singapore Global Connect Fellowship 2026
+        date: 2026-01
+        awarder: Nanyang Technological University, Singapore
+        summary: "Selected as 1 of 39 young scholars worldwide from approximately 2,700 applicants for a fully funded research fellowship; awarded the Most Popular Poster Award at the final poster presentation."
 
-    - name: Simulation & Engineering Modeling
-      level: Advanced
-      # icon: fa-solid fa-chart-line
-      keywords: "MATLAB/Simulink, SolidWorks, ANSYS CFD, Dynamic System Modeling, Circuit Analysis, Optimization"
+      - title: DiscoverNUS Scholarship
+        date: 2025-08
+        awarder: National University of Singapore
+        summary: "Selected as one of 8 excellent VNU students to receive the fully funded DiscoverNUS exchange scholarship."
 
-    - name: Artificial Intelligence & Smart Manufacturing
-      level: Intermediate
-      # icon: fa-solid fa-brain
-      keywords: "Machine Learning, Computer Vision, YOLO, Data-Driven Modeling, Intelligent Manufacturing, Digital Twin Concepts"
+      - title: Taiwan Experience Education Program (TEEP) Scholarship
+        date: 2025-04
+        awarder: Ministry of Education, Taiwan
+        summary: "Selected as one of 28 global students to receive a fully funded scholarship for a research internship at National Chung Cheng University."
 
-    - name: Programming & Embedded Development
-      level: Intermediate
-      # icon: fa-solid fa-code
-      keywords: "Python, C/C++, Arduino, Node.js, Git/GitHub, Embedded Prototyping"
-      Languages:
-        - name: German
-          summary: "Native speaker"
+      - title: ASEAN in Today's World 2025
+        date: 2025-02
+        awarder: Kyushu University
+        summary: "Selected as one of 4 VNU representatives to participate in the AsTW program in Indonesia, funded by Kyushu University."
 
-    - name: English
-      summary: "Fluent"
+      - title: Toshiba Scholarship
+        date: 2024-09
+        awarder: Toshiba International Foundation
+        summary: "Selected as one of 20 excellent VNU students to receive the scholarship."
 
-    Interests:
-    - name: Autonomous Systems
-      # icon: fa-solid fa-robot
-      keywords: "Robotics, AUV, Intelligent Systems"
+      - title: Temasek Foundation Specialists' Community Action & Leadership Exchange Program
+        date: 2024-02
+        awarder: Temasek Foundation
+        summary: "Selected as one of 20 VNU representatives to participate in the fully funded exchange program in Vietnam and Singapore."
 
-    - name: Engineering & Technology
-      # icon: fa-solid fa-microchip
-      keywords: "AI, Smart Manufacturing, Innovation"
+      - title: South-East Asia Circuit and System Society Hackathon 2022
+        date: 2022-12
+        awarder: IEEE CASS
+        summary: "Received the Fighting Spirit Prize."
 
-    - name: Outdoor Activities
-      # icon: fa-solid fa-mountain
-      keywords: "Running, Hiking, Exploration"
-
-    - name: Personal Development
-      # icon: fa-solid fa-book
-      keywords: "Reading, Learning, Growth"
-    
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - title: Academic Scholarship for Excellent Student
+        date: 2021
+        awarder: Vietnam National University, Hanoi
+        summary: "Six-semester recipient from Fall 2021 to Spring 2025."
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Advanced 3D Underwater Wireless Power Transfer System for AUVs
+        start_date: 2026-02
+        end_date: present
+        summary: "Research project on relay-coil-enhanced spatial underwater wireless power transfer for docking-free AUV charging."
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Designed and analyzed a 3D transmitter concept with relay coils for improved spatial power-transfer coverage."
+          - "Modeled system behavior in MATLAB and evaluated efficiency and output power under different loads."
+          - "Connected mechanical AUV design considerations with UWPT integration and transmitter-receiver communication."
+
+      - name: Data-Driven Cutting Force Prediction for Smart Manufacturing
+        start_date: 2025-05
+        end_date: present
+        summary: "Smart manufacturing research project using machine learning and data-driven methods to predict cutting forces in milling."
+        highlights:
+          - "Processed large-scale datasets from milling experiments and developed prediction models for dynamic cutting force estimation."
+          - "Implemented Random Forest, XGBoost, and data-driven modeling approaches."
+
+      - name: Adaptive Fuzzy Backstepping Control for a 3-DOF Delta Robot
+        start_date: 2024
+        end_date: 2024
+        summary: "Designed and controlled a 3-DOF parallel robot under uncertainties using adaptive fuzzy logic and backstepping control."
+        highlights:
+          - "Developed the mechanical model and physical prototype."
+          - "Reduced joint trajectory deviation and improved stability response compared with baseline control."
+
+      - name: YOLOv5s-Based PPE Detection in Construction Sites
+        start_date: 2023
+        end_date: 2023
+        summary: "Computer vision project for detecting personal protective equipment in construction environments."
+        highlights:
+          - "Built a 2,632-image dataset across 5 classes."
+          - "Compared six activation functions in YOLOv5s and achieved the best performance using SiLU."
+
+      - name: AGV-Based Virtual Simulation for Automated Warehouse Logistics
+        start_date: 2025-03
+        end_date: 2025-05
+        summary: "Industrial simulation project for AGV/AMR logistics operation at VinFast Hai Phong."
+        highlights:
+          - "Created AutoCAD traffic-intersection sketches and simulated warehouse operations in Visual Components Premium 4.6."
+          - "Analyzed AGV/AMR behavior and supported troubleshooting of simulation errors."
+
+    Skills:
+      - name: Control Systems & Robotics
+        level: Advanced
+        keywords: "PID control, model predictive control, adaptive control, backstepping control, fuzzy logic control, robot modeling, trajectory tracking, mechatronic systems"
+
+      - name: Autonomous Underwater Engineering
+        level: Intermediate
+        keywords: "Autonomous underwater vehicles, underwater wireless power transfer, relay-coil WPT, hydrodynamic design, underwater communication, marine robotics"
+
+      - name: Simulation & Engineering Modeling
+        level: Advanced
+        keywords: "MATLAB, Simulink, SolidWorks, AutoCAD, Visual Components, dynamic system modeling, circuit analysis, optimization"
+
+      - name: Artificial Intelligence & Data-Driven Engineering
+        level: Intermediate
+        keywords: "Machine learning, computer vision, YOLOv5, Random Forest, XGBoost, data preprocessing, data-driven modeling, smart manufacturing"
+
+      - name: Programming & Embedded Systems
+        level: Intermediate
+        keywords: "Python, MATLAB, Embedded C/C++, PLC, Arduino, STM32, Git, GitHub, Node.js"
+
+    Languages:
+      - name: Vietnamese
+        summary: "Native"
+      - name: English
+        summary: "IELTS 6.5 overall; Writing 7.0"
+      - name: Chinese
+        summary: "Beginner"
+
+    Interests:
+      - name: Autonomous Systems
+        keywords: "AUVs, robotics, intelligent control, long-endurance robotic systems"
+
+      - name: Wireless Energy Transfer
+        keywords: "Underwater wireless power transfer, charging systems, energy autonomy"
+
+      - name: AI for Engineering
+        keywords: "Data-driven modeling, computer vision, smart manufacturing, intelligent sensing"
+
+      - name: Research & Innovation
+        keywords: "Academic research, engineering entrepreneurship, technology for real-world impact"
 
     References:
-      - name: Prof. Her-Terng Yau
-        # icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
       - name: Asst. Prof. Yun Yang
-        # icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: "Assistant Professor, School of Electrical and Electronic Engineering, Nanyang Technological University. Contact: yun.yang@ntu.edu.sg."
+
+      - name: Prof. Her-Terng Yau
+        reference: "Director of AIM-HI, National Chung Cheng University. Contact: yauherterng@gmail.com."
 
       - name: Assoc. Prof. Nguyen Nhu Tung
-        # icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: "Senior Lecturer, Faculty of Engineering and Technology, VNU International School. Contact: tungnn@vnu.edu.vn."
 
       - name: Dr. Le Xuan Hai
-        # icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: "Vice Dean, Faculty of Engineering and Technology, VNU International School. Contact: hailx@vnu.edu.vn."
