@@ -8,9 +8,9 @@ profile:
   align: right
   image: profile_pic.JPG
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>(+84) 0358036759</p>
-    <p>Hanoi, Vietnam</p>
+  # more_info: >
+  #   <p>(+84) 0358036759</p>
+  #   <p>Hanoi, Vietnam</p>
 
 news: true
 selected_papers: true
