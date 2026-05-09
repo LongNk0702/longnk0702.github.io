@@ -16,17 +16,16 @@ profile:
 news: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-visitor_map: false 
 
-# announcements:
-#   enabled: true # includes a list of news items
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-#   limit: 5 # leave blank to include all the news in the `_news` folder
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
-# latest_posts:
-# enabled: true
-# scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-# limit: 3 # leave blank to include all the blog posts
+latest_posts:
+enabled: true
+scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+limit: 3 # leave blank to include all the blog posts
 ---
 
 I am an aspiring robotics researcher and final-year student in B.Eng of Automation and Informatics at Vietnam National University, Hanoi. My research interests lie at the intersection of robotics, control, wireless power transfer, and AI-enabled autonomous systems.
