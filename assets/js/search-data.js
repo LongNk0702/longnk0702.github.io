@@ -521,13 +521,6 @@ ninja.data = [{
           window.open("mailto:%6E%6B.%6C%6F%6E%67%37%32%33@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
@@ -535,11 +528,32 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=HCHDS8oAAAAJ", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/longnk0702", "_blank");
+        },
+      },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/k.long.72", "_blank");
+        },
+      },{
         id: 'social-whatsapp',
         title: 'whatsapp',
         section: 'Socials',
         handler: () => {
-          window.open("https://wa.me/(+84) 0358036759", "_blank");
+          window.open("https://wa.me/84358036759", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
