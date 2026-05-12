@@ -58,7 +58,40 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "post-my-research-direction-auvs-control-and-underwater-wireless-power-transfer",
+            },{id: "post-data-driven-modeling-for-smart-manufacturing",
+        
+          title: "Data-Driven Modeling for Smart Manufacturing",
+        
+        description: "Notes from my research experience on cutting force prediction using AI and data-driven methods.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/data-driven-smart-manufacturing/";
+          
+        },
+      },{id: "post-learning-control-theory-for-auv-research",
+        
+          title: "Learning Control Theory for AUV Research",
+        
+        description: "My learning path for strengthening control theory foundations to support future AUV research.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/learning-control-theory-for-auv-research/";
+          
+        },
+      },{id: "post-research-experience-at-ntu-global-connect-fellowship",
+        
+          title: "Research Experience at NTU Global Connect Fellowship",
+        
+        description: "Reflection on my research experience at NTU, working on wireless power transfer for autonomous underwater vehicles.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ntu-gcf-research-experience/";
+          
+        },
+      },{id: "post-my-research-direction-auvs-control-and-underwater-wireless-power-transfer",
         
           title: "My Research Direction: AUVs, Control, and Underwater Wireless Power Transfer",
         
