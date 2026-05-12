@@ -6,7 +6,7 @@ subtitle: Robotics • Control • Autonomous Systems
 
 profile:
   align: right
-  image: profile_pic_1.jpg
+  image: profile_pic.JPG
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>(+84) 0358036759</p>
