@@ -44,14 +44,14 @@ cv:
         end_date: 2025-12
         highlights:
           - "Selected as one of 8 VNU students for the fully funded DiscoverNUS exchange scholarship."
-          - "QS World University Ranking by Subject 2025: Engineering & Technology #12."
+          - "Courseworks: Electric Drives & Control (EE4502), Robot Mechanics and Control (ME4245), Calculus (MA2002)."
 
     Experience:
       - company: Water & Energy Research Lab, School of Electrical and Electronic Engineering, Nanyang Technological University (NTU)
         location: Singapore
         position: Research Fellow, Global Connect Fellowship
         start_date: 2026-02
-        end_date: present
+        end_date: 2026-03
         summary: "Project: Advanced 3D Wireless Power Transfer System for Autonomous Underwater Vehicles."
         highlights:
           - "Studied relay-coil-enhanced underwater wireless power transfer for long-endurance AUV charging."
@@ -207,33 +207,35 @@ cv:
         end_date: present
         summary: "Research project on relay-coil-enhanced spatial underwater wireless power transfer for docking-free AUV charging."
         highlights:
-          - "Designed and analyzed a 3D transmitter concept with relay coils for improved spatial power-transfer coverage."
-          - "Modeled system behavior in MATLAB and evaluated efficiency and output power under different loads."
-          - "Connected mechanical AUV design considerations with UWPT integration and transmitter-receiver communication."
+          - "Studied relay-coil-enhanced spatial wireless power transfer systems for autonomous underwater vehicle charging."
+          - "Analyzed coil configurations, equivalent circuit behavior, power transfer efficiency, and load-dependent system performance."
+          - "Got Most Popular Poster Award in NTU GCF Final Research Presentation."
 
-      - name: Data-Driven Cutting Force Prediction for Smart Manufacturing
+      - name: Prediction of Cutting Force and Tool Wear Prediction Using Machine Learning Methods
         start_date: 2025-05
         end_date: present
-        summary: "Smart manufacturing research project using machine learning and data-driven methods to predict cutting forces in milling."
+        summary: "Smart manufacturing research project using machine learning and data-driven methods to predict cutting forces and tool wear in milling."
         highlights:
-          - "Processed large-scale datasets from milling experiments and developed prediction models for dynamic cutting force estimation."
-          - "Implemented Random Forest, XGBoost, and data-driven modeling approaches."
+          - "Applying machine learning models (Random Forest, XGBoost, and Suppoort Vector Regression) to Taguchi machining dataset."
+          - "Built data-driven models for cutting force and tool wear prediction in CNC milling using experimental machining datasets."
 
       - name: Adaptive Fuzzy Backstepping Control for a 3-DOF Delta Robot
         start_date: 2024
         end_date: 2024
         summary: "Designed and controlled a 3-DOF parallel robot under uncertainties using adaptive fuzzy logic and backstepping control."
         highlights:
-          - "Developed the mechanical model and physical prototype."
-          - "Reduced joint trajectory deviation and improved stability response compared with baseline control."
+          - "Designed and built a 3-DOF delta parallel robot prototype for motion control research."
+          - "Implemented adaptive fuzzy backstepping control to improve trajectory tracking under uncertainties."
+          - "Presented in International Conference on Advances in Information and Communication Technology 2024."
 
-      - name: YOLOv5s-Based PPE Detection in Construction Sites
+      - name: Prediction of Personal Protective Equipment Using YOLOv5s
         start_date: 2023
         end_date: 2023
         summary: "Computer vision project for detecting personal protective equipment in construction environments."
         highlights:
-          - "Built a 2,632-image dataset across 5 classes."
-          - "Compared six activation functions in YOLOv5s and achieved the best performance using SiLU."
+          - "Trained YOLOv5s-based object detection models and compared six activation functions for performance improvement."
+          - "Evaluated model performance using precision, recall, mAP@0.5, and mAP@0.5–0.95."
+          - "Presented in National Conference on Smart Technology Application in Industry 4.0, Smart City, and Sustainability 2023."
 
       - name: AGV-Based Virtual Simulation for Automated Warehouse Logistics
         start_date: 2025-03
@@ -291,9 +293,6 @@ cv:
 
       - name: Prof. Her-Terng Yau
         reference: "Director of AIM-HI, National Chung Cheng University. Contact: yauherterng@gmail.com."
-
-      - name: Assoc. Prof. Nguyen Nhu Tung
-        reference: "Senior Lecturer, Faculty of Engineering and Technology, VNU International School. Contact: tungnn@vnu.edu.vn."
 
       - name: Dr. Le Xuan Hai
         reference: "Vice Dean, Faculty of Engineering and Technology, VNU International School. Contact: hailx@vnu.edu.vn."

@@ -1,14 +1,4 @@
 ---
-layout: post
-title: "Research Experience at NTU Global Connect Fellowship"
-date: 2026-05-10
-description: "Reflection on my research experience at NTU, working on wireless power transfer for autonomous underwater vehicles."
-tags: ntu research fellowship robotics auv wireless-power-transfer
-categories: research-experience
-related_posts: false
----
-
----
 
 layout: post
 title: "Research Experience at NTU Global Connect Fellowship"
@@ -19,8 +9,10 @@ categories: research-experience
 related_posts: false
 --------------------
 
-![NTU Global Connect Fellowship]({{ '/assets/img/group-photo.jpg' | relative_url }})
-*The NTU Global Connect Fellowship gave me the opportunity to experience research in an international academic environment.*
+<figure class="post-image">
+  <img src="{{ '/assets/img/1.jpg'}}" alt="NTU Global Connect Fellowship">
+  <figcaption>The NTU Global Connect Fellowship gave me the opportunity to experience research in an international academic environment.</figcaption>
+</figure>
 
 ## Introduction
 
@@ -34,8 +26,10 @@ The fellowship also gave me the chance to expand my academic network. I was able
 
 The NTU Global Connect Fellowship is an international research program that allows selected students to experience research at NTU, one of the leading universities in Asia and the world. The program provides participants with the opportunity to join research laboratories, work with professors and research teams, attend academic activities, and present their work to a diverse community of scholars.
 
-![Research environment at NTU]({{ '/assets/img/ntu-gcf-2026/DSC05048.JPG'}})
-*Experiencing research at NTU helped me understand how academic ideas are developed, discussed, and refined in an international setting.*
+<figure class="post-image">
+  <img src="{{ '/assets/img/DSC04890.jpg'}}" alt="Research environment at NTU">
+  <figcaption>Experiencing research at NTU helped me understand how academic ideas are developed, discussed, and refined in an international setting.</figcaption>
+</figure>
 
 One of the most valuable aspects of the program was its interdisciplinary and international environment. Fellows came from different universities, countries, and research fields. Some worked on artificial intelligence, robotics, biomedical engineering, energy systems, materials science, and other advanced research topics. Being surrounded by such a diverse group of young researchers encouraged me to think beyond my own field and reflect more deeply on how my research interests could contribute to real-world technological challenges.
 
@@ -47,8 +41,10 @@ However, one of the major challenges of AUVs is energy limitation. Since underwa
 
 My project explored how **wireless power transfer** could be used to support underwater charging for AUVs. In particular, I studied the role of **relay-coil-enhanced wireless power transfer**, system-level design, mechanical structure considerations, and communication between transmitter and receiver systems.
 
-<!-- ![AUV and wireless power transfer concept]({{ '/assets/img/ntu-gcf-2026/auv-wpt-concept.jpg' | relative_url }})
-*My research focused on wireless power transfer systems for autonomous underwater vehicles.* -->
+<figure class="post-image">
+  <img src="{{ '/assets/img/DSC04878.JPG}}" alt="AUV and wireless power transfer concept">
+  <figcaption>My research focused on wireless power transfer systems for autonomous underwater vehicles.</figcaption>
+</figure>
 
 The topic was highly interdisciplinary. It was not only about electrical circuits or power electronics. It also required me to think about mechanical design, underwater operation, coupling variation, alignment tolerance, system efficiency, and the integration of energy transfer with robotic platforms. This helped me realize that robotic systems cannot be understood from only one technical layer. A practical system must be considered as a combination of mechanics, electronics, control, energy, communication, and environmental constraints.
 
@@ -76,8 +72,10 @@ A good research idea must eventually be evaluated in the context of a real syste
 
 These questions helped me move from a component-level mindset to a system-level mindset. Instead of only asking whether one circuit or one model works, I began asking how different parts of the system interact with each other and how the final solution could work in a realistic environment.
 
-<!-- ![System-level research process]({{ '/assets/img/ntu-gcf-2026/system-design-process.jpg' | relative_url }})
-*The project helped me understand the connection between theoretical modeling, simulation, mechanical design, and system integration.* -->
+<!-- <figure class="post-image">
+  <img src="{{ '/assets/img/system-design-process.jpg' | relative_url }}" alt="System-level research process">
+  <figcaption>The project helped me understand the connection between theoretical modeling, simulation, mechanical design, and system integration.</figcaption> -->
+<!-- </figure> -->
 
 This experience also changed the way I read research papers. I learned to pay more attention not only to equations and results, but also to the motivation, assumptions, limitations, and design decisions behind each study. I began to ask: What real problem is this paper trying to solve? Why did the authors choose this method? What are the trade-offs? What can be improved next?
 
@@ -97,8 +95,10 @@ This realization strongly influenced my long-term academic direction. It encoura
 
 Beyond the technical project, the fellowship gave me a valuable opportunity to connect with an international academic community. I had conversations with professors, lab members, senior students, and young scholars from different universities and research cultures. These interactions helped me understand how researchers at different stages think about their work, plan their careers, and define meaningful research questions.
 
-![Academic exchange during the fellowship]({{ '/assets/img/opening.jpg' }})
-*The fellowship allowed me to connect with professors, seniors, and young scholars from different academic backgrounds.*
+<figure class="post-image">
+  <img src="{{ '/assets/img/group_photo.jpg' | relative_url }}" alt="Academic exchange during the fellowship">
+  <figcaption>The fellowship allowed me to connect with professors, seniors, and young scholars from different academic backgrounds.</figcaption>
+</figure>
 
 Meeting young scholars from top universities such as Oxford, The University of Tokyo, Northwestern University, and other leading institutions was especially inspiring. Their research interests, working styles, and academic maturity motivated me to reflect on my own preparation. I realized that becoming a strong researcher requires not only technical skills, but also curiosity, discipline, communication skills, and a clear sense of direction.
 
@@ -108,15 +108,19 @@ These academic connections became one of the most valuable outcomes of the progr
 
 At the end of the fellowship, I had the opportunity to present my research through a poster session. This was an important experience because it required me to summarize my work clearly and communicate it to people from different backgrounds.
 
-![Poster presentation at NTU]({{ '/assets/img/ntu-gcf-2026/DSC04878.JPG'}})
-*Presenting my research poster was one of the highlights of the fellowship.*
+<figure class="post-image">
+  <img src="{{ '/assets/img/DSC05048.JPG'}}" alt="Poster presentation at NTU">
+  <figcaption>Presenting my research poster was one of the highlights of the fellowship.</figcaption>
+</figure>
 
 Preparing the poster helped me think more carefully about the structure of my research story. I needed to explain the motivation, technical problem, proposed approach, and expected contribution in a concise and understandable way. During the session, I received questions and feedback from other fellows, researchers, and visitors. These discussions helped me see my project from different perspectives and identify possible directions for future improvement.
 
 I was honored to receive the **Most Popular Poster Award** during the fellowship. This award was very meaningful to me, not only as recognition of my work, but also as encouragement to continue developing my research direction. It reminded me that research communication is an essential part of academic work. A good idea becomes more valuable when it can be shared clearly, discussed openly, and connected with the interests of a broader community.
 
-![Most Popular Poster Award]({{ '/assets/img/ntu-gcf-2026/2026_GCF_Mar_107.jpg'}})
-*Receiving the Most Popular Poster Award was a memorable milestone in my research journey.*
+<figure class="post-image">
+  <img src="{{ '/assets/img/2026_GCF_Mar_107.jpg'}}" alt="Most Popular Poster Award">
+  <figcaption>Receiving the Most Popular Poster Award was a memorable milestone in my research journey.</figcaption>
+</figure>
 
 ## What I Gained from the Program
 
@@ -150,5 +154,7 @@ More importantly, it helped me understand that research is not only about solvin
 
 This experience will continue to shape my academic journey in robotics, autonomous systems, and underwater wireless power transfer. I am grateful for the opportunity, the mentorship, the friendships, and the inspiration I received throughout the program.
 
-![Group photo at NTU]({{ '/assets/img/ntu-gcf-2026/group-photo.jpg'}})
-*The fellowship was not only a research experience, but also a journey of academic growth, connection, and self-discovery.*
+<!-- <figure class="post-image">
+  <img src="{{ '/assets/img/ntu-gcf-2026/group-photo.jpg' | relative_url }}" alt="Group photo at NTU">
+  <figcaption>The fellowship was not only a research experience, but also a journey of academic growth, connection, and self-discovery.</figcaption>
+</figure> -->
