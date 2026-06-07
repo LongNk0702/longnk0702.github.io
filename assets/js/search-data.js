@@ -58,29 +58,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "post-building-my-academic-website",
-        
-          title: "Building My Academic Website",
-        
-        description: "Why I started building a personal academic website to document my research journey, projects, and publications.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/building-my-academic-website/";
-          
-        },
-      },{id: "post-from-automation-engineering-to-robotics-research",
-        
-          title: "From Automation Engineering to Robotics Research",
-        
-        description: "A personal reflection on how my academic path evolved from automation engineering to robotics and intelligent systems research.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/from-automation-to-robotics-research/";
-          
-        },
-      },{id: "post-data-driven-modeling-for-smart-manufacturing",
+            },{id: "post-data-driven-modeling-for-smart-manufacturing",
         
           title: "Data-Driven Modeling for Smart Manufacturing",
         
@@ -89,17 +67,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/data-driven-smart-manufacturing/";
-          
-        },
-      },{id: "post-learning-control-theory-for-auv-research",
-        
-          title: "Learning Control Theory for AUV Research",
-        
-        description: "My learning path for strengthening control theory foundations to support future AUV research.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/learning-control-theory-for-auv-research/";
           
         },
       },{id: "post-research-experience-at-ntu-global-connect-fellowship",
