@@ -2,17 +2,17 @@
 
 layout: post
 title: "Research Experience at NTU Global Connect Fellowship"
-date: 2026-05-10
+date: 2026-06-07
 description: "Reflection on my research experience at NTU, where I worked on wireless power transfer for autonomous underwater vehicles and reshaped my research mindset."
 tags: ntu research fellowship robotics auv wireless-power-transfer underwater-robotics academic-journey
 categories: research-experience
 related_posts: false
 --------------------
 
-<figure class="post-image">
+<!-- <figure class="post-image">
   <img src="{{ '/assets/img/1.jpg'}}" alt="NTU Global Connect Fellowship">
   <figcaption>The NTU Global Connect Fellowship gave me the opportunity to experience research in an international academic environment.</figcaption>
-</figure>
+</figure> -->
 
 ## Introduction
 
@@ -26,10 +26,10 @@ The fellowship also gave me the chance to expand my academic network. I was able
 
 The NTU Global Connect Fellowship is an international research program that allows selected students to experience research at NTU, one of the leading universities in Asia and the world. The program provides participants with the opportunity to join research laboratories, work with professors and research teams, attend academic activities, and present their work to a diverse community of scholars.
 
-<figure class="post-image">
+<!-- <figure class="post-image">
   <img src="{{ '/assets/img/DSC04890.jpg'}}" alt="Research environment at NTU">
   <figcaption>Experiencing research at NTU helped me understand how academic ideas are developed, discussed, and refined in an international setting.</figcaption>
-</figure>
+</figure> -->
 
 One of the most valuable aspects of the program was its interdisciplinary and international environment. Fellows came from different universities, countries, and research fields. Some worked on artificial intelligence, robotics, biomedical engineering, energy systems, materials science, and other advanced research topics. Being surrounded by such a diverse group of young researchers encouraged me to think beyond my own field and reflect more deeply on how my research interests could contribute to real-world technological challenges.
 
@@ -41,10 +41,10 @@ However, one of the major challenges of AUVs is energy limitation. Since underwa
 
 My project explored how **wireless power transfer** could be used to support underwater charging for AUVs. In particular, I studied the role of **relay-coil-enhanced wireless power transfer**, system-level design, mechanical structure considerations, and communication between transmitter and receiver systems.
 
-<figure class="post-image">
+<!-- <figure class="post-image">
   <img src="{{ '/assets/img/DSC04878.JPG}}" alt="AUV and wireless power transfer concept">
   <figcaption>My research focused on wireless power transfer systems for autonomous underwater vehicles.</figcaption>
-</figure>
+</figure> -->
 
 The topic was highly interdisciplinary. It was not only about electrical circuits or power electronics. It also required me to think about mechanical design, underwater operation, coupling variation, alignment tolerance, system efficiency, and the integration of energy transfer with robotic platforms. This helped me realize that robotic systems cannot be understood from only one technical layer. A practical system must be considered as a combination of mechanics, electronics, control, energy, communication, and environmental constraints.
 
@@ -95,10 +95,10 @@ This realization strongly influenced my long-term academic direction. It encoura
 
 Beyond the technical project, the fellowship gave me a valuable opportunity to connect with an international academic community. I had conversations with professors, lab members, senior students, and young scholars from different universities and research cultures. These interactions helped me understand how researchers at different stages think about their work, plan their careers, and define meaningful research questions.
 
-<figure class="post-image">
+<!-- <figure class="post-image">
   <img src="{{ '/assets/img/group_photo.jpg' | relative_url }}" alt="Academic exchange during the fellowship">
   <figcaption>The fellowship allowed me to connect with professors, seniors, and young scholars from different academic backgrounds.</figcaption>
-</figure>
+</figure> -->
 
 Meeting young scholars from top universities such as Oxford, The University of Tokyo, Northwestern University, and other leading institutions was especially inspiring. Their research interests, working styles, and academic maturity motivated me to reflect on my own preparation. I realized that becoming a strong researcher requires not only technical skills, but also curiosity, discipline, communication skills, and a clear sense of direction.
 
@@ -108,19 +108,19 @@ These academic connections became one of the most valuable outcomes of the progr
 
 At the end of the fellowship, I had the opportunity to present my research through a poster session. This was an important experience because it required me to summarize my work clearly and communicate it to people from different backgrounds.
 
-<figure class="post-image">
+<!-- <figure class="post-image">
   <img src="{{ '/assets/img/DSC05048.JPG'}}" alt="Poster presentation at NTU">
   <figcaption>Presenting my research poster was one of the highlights of the fellowship.</figcaption>
-</figure>
+</figure> -->
 
 Preparing the poster helped me think more carefully about the structure of my research story. I needed to explain the motivation, technical problem, proposed approach, and expected contribution in a concise and understandable way. During the session, I received questions and feedback from other fellows, researchers, and visitors. These discussions helped me see my project from different perspectives and identify possible directions for future improvement.
 
 I was honored to receive the **Most Popular Poster Award** during the fellowship. This award was very meaningful to me, not only as recognition of my work, but also as encouragement to continue developing my research direction. It reminded me that research communication is an essential part of academic work. A good idea becomes more valuable when it can be shared clearly, discussed openly, and connected with the interests of a broader community.
 
-<figure class="post-image">
+<!-- <figure class="post-image">
   <img src="{{ '/assets/img/2026_GCF_Mar_107.jpg'}}" alt="Most Popular Poster Award">
   <figcaption>Receiving the Most Popular Poster Award was a memorable milestone in my research journey.</figcaption>
-</figure>
+</figure> -->
 
 ## What I Gained from the Program
 

@@ -27,6 +27,8 @@ latest_posts:
   limit: 3
 ---
 
-I am an aspiring robotics researcher and final-year student in B.Eng of Automation and Informatics at Vietnam National University, Hanoi. My research interests lie at the intersection of robotics, control, wireless power transfer, and AI-enabled autonomous systems.
+I am a final-year B.Eng. student in Automation and Informatics at Vietnam National University, Hanoi.
 
-My current research focuses on developing long-endurance autonomous robotic systems, particularly AUVs, through intelligent control and wireless energy transfer.
+My research interests lie in robotics, control systems, wireless power transfer, and AI-enabled autonomous systems. Currently, I focus on developing long-endurance autonomous underwater vehicles by integrating intelligent control and wireless energy transfer.
+
+As a life-long learner, I enjoy exploring new ideas, learning from different research environments, and connecting with people from diverse backgrounds. My international experiences in Indonesia, Taiwan and Singapore have helped me gradually bridge the gap between theory and practice, and between local learning and the global academic community.
