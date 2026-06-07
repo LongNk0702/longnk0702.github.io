@@ -69,11 +69,11 @@ ninja.data = [{
             window.location.href = "/blog/2026/data-driven-smart-manufacturing/";
           
         },
-      },{id: "post-research-experience-at-ntu-global-connect-fellowship",
+      },{id: "post-ntu-gcf-research-experience",
         
-          title: "Research Experience at NTU Global Connect Fellowship",
+          title: "Ntu Gcf Research Experience",
         
-        description: "Reflection on my research experience at NTU, working on wireless power transfer for autonomous underwater vehicles.",
+        description: "",
         section: "Posts",
         handler: () => {
           
