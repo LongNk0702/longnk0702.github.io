@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data-Driven Modeling for Smart Manufacturing"
+title: "Data-Driven Modeling for Smart Manufacturing (Updating)"
 date: 2026-05-12
 description: "Notes from my research experience on cutting force prediction using AI and data-driven methods."
 tags: smart-manufacturing ai machine-learning data-driven-modeling
