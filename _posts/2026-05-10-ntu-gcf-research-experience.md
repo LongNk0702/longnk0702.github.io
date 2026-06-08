@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Research Experience at Nanyang Technological University, Singapore (NTU GCF 2026)"
-date: 2026-06-08
+date: 2026-05-10
 description: "Reflection on my research experience at NTU, where I worked on wireless power transfer for autonomous underwater vehicles and reshaped my research mindset."
 tags: research wpt auvs singapore
 categories: research
