@@ -1,24 +1,11 @@
 ---
-
 layout: post
-title: "Research Experience at NTU Global Connect Fellowship"
-date: 2026-06-07
+title: "Research Experience at Nanyang Technological University, Singapore (NTU GCF 2026)"
+date: 2026-06-08
 description: "Reflection on my research experience at NTU, where I worked on wireless power transfer for autonomous underwater vehicles and reshaped my research mindset."
-img: assets/img/ntu-gcf-2026/cover.jpg
-tags:
-
-* ntu
-* research
-* fellowship
-* robotics
-* auv
-* wireless-power-transfer
-* underwater-robotics
-* academic-journey
-  categories:
-* research-experience
-  related_posts: false
-
+tags: research wpt auvs singapore
+categories: research
+related_posts: false
 ---
 
 In early 2026, I had the opportunity to participate in the **NTU Global Connect Fellowship** at **Nanyang Technological University, Singapore**. During the fellowship, I worked at the **Water & Energy Research Lab**, School of Electrical and Electronic Engineering, on wireless power transfer systems for autonomous underwater vehicles.
