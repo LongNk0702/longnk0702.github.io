@@ -192,7 +192,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/CV__Khac_Long_Nguyen_v02.pdf", "_blank");
+          window.open("/assets/pdf/CV_Khac_Long_Nguyen_v02.pdf", "_blank");
         },
       },{
         id: 'social-email',
