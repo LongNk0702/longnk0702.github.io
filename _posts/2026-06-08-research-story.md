@@ -7,7 +7,7 @@ description: "Một vài chia sẻ về hành trình theo đuổi đam mê khoa 
 tags: personal-growth research science-technology international-experience robotics control
 categories: reflection
 related_posts: false
---------------------
+---
 
 Từ khi còn nhỏ, tôi đã có một sự tò mò đặc biệt với khoa học và công nghệ. Tôi thích quan sát cách mọi thứ vận hành, thích đặt câu hỏi vì sao một hệ thống có thể hoạt động, vì sao một mô hình có thể giải thích hiện tượng xung quanh, và vì sao con người có thể dùng tri thức để tạo ra những giải pháp hữu ích cho cuộc sống.
 
