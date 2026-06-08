@@ -51,11 +51,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "post-research-story",
+            },{id: "post-hành-trình-theo-đuổi-khoa-học",
         
-          title: "Research Story",
+          title: "Hành trình theo đuổi khoa học",
         
-        description: "",
+        description: "Một vài chia sẻ về hành trình theo đuổi đam mê khoa học, từ những cuộc thi đầu tiên, ước mơ bước ra thế giới, đến trách nhiệm của một sinh viên Việt Nam trong môi trường quốc tế.",
         section: "Posts",
         handler: () => {
           
