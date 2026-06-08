@@ -142,12 +142,20 @@ During the session, I received questions and feedback from other fellows, resear
   <div class="col-sm-8 mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/ntu-gcf-2026/poster-presentation.jpg" title="Poster presentation at NTU" class="img-fluid rounded z-depth-1" %}
   </div>
+
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/most-popular-poster-award.jpg" title="Most Popular Poster Award" class="img-fluid rounded z-depth-1" %}
+    <div class="mb-3">
+      {% include figure.liquid path="assets/img/ntu-gcf-2026/most-popular-poster-award.jpg" title="Most Popular Poster Award" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+    <div>
+      {% include figure.liquid path="assets/img/ntu-gcf-2026/DSC04988.JPG" title="Certificate of Completion" class="img-fluid rounded z-depth-1" %}
+    </div>
   </div>
 </div>
+
 <div class="caption">
-  Presenting my research poster and receiving the Most Popular Poster Award were memorable milestones in my research journey.
+  Presenting my research poster, receiving the Most Popular Poster Award, and completing the NTU Global Connect Fellowship were memorable milestones in my research journey.
 </div>
 
 I was honored to receive the **Most Popular Poster Award** during the fellowship. This award was very meaningful to me, not only as recognition of my work, but also as encouragement to continue developing my research direction.
