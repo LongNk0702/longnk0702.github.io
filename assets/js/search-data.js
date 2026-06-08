@@ -62,9 +62,9 @@ ninja.data = [{
             window.location.href = "/blog/2026/research-story/";
           
         },
-      },{id: "post-data-driven-modeling-for-smart-manufacturing",
+      },{id: "post-data-driven-modeling-for-smart-manufacturing-updating",
         
-          title: "Data-Driven Modeling for Smart Manufacturing",
+          title: "Data-Driven Modeling for Smart Manufacturing (Updating)",
         
         description: "Notes from my research experience on cutting force prediction using AI and data-driven methods.",
         section: "Posts",
