@@ -31,13 +31,13 @@ Being surrounded by such a diverse group of young researchers encouraged me to t
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/ntu-gcf-2026/research-environment.jpg" title="Research environment at NTU" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/ntu-gcf-2026/academic.jpg" title="Research environment at NTU" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/ntu-gcf-2026/academic-discussion.jpg" title="Academic discussion during the fellowship" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/ntu-gcf-2026/ntu-campus.jpg" title="NTU campus experience" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/ntu-gcf-2026/ntu-mentor.jpg" title="NTU research mentor" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -52,17 +52,6 @@ AUVs are underwater robotic systems that can operate without direct human contro
 
 My project explored how **wireless power transfer** could be used to support underwater charging for AUVs. In particular, I studied the role of **relay-coil-enhanced wireless power transfer**, system-level design, mechanical structure considerations, and communication between transmitter and receiver systems.
 
-<!-- <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/auv-design.jpg" title="AUV design concept" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/wpt-concept.jpg" title="Wireless power transfer concept" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  My research focused on the integration of wireless power transfer systems with autonomous underwater vehicles.
-</div> -->
 
 The topic was highly interdisciplinary. It was not only about electrical circuits or power electronics. It also required me to think about mechanical design, underwater operation, coupling variation, alignment tolerance, system efficiency, and the integration of energy transfer with robotic platforms.
 
@@ -82,17 +71,6 @@ The topic of wireless power transfer was especially meaningful to me because it 
 
 Through this topic, I was able to connect my background in automation and control with new knowledge in wireless power transfer, system design, and underwater robotic applications.
 
-<!-- <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/robotics-interest.jpg" title="Robotics and autonomous systems" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/underwater-robotics.jpg" title="Underwater robotics research direction" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  The topic allowed me to connect my background in automation and control with a new research direction in underwater robotic systems.
-</div> -->
 
 ## What I Learned During the Research Process
 
@@ -106,20 +84,6 @@ A good research idea must eventually be evaluated in the context of a real syste
 * How should the transmitter and receiver communicate during the charging process?
 * How can the design remain compact, efficient, and suitable for underwater deployment?
 
-<!-- <div class="row justify-content-sm-center">
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/modeling.jpg" title="Theoretical modeling" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/simulation.jpg" title="Simulation and analysis" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/system-integration.jpg" title="System integration" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  The project helped me understand the connection between theoretical modeling, simulation, mechanical design, and system integration.
-</div> -->
 
 These questions helped me move from a component-level mindset to a system-level mindset. Instead of only asking whether one circuit or one model works, I began asking how different parts of the system interact with each other and how the final solution could work in a realistic environment.
 
@@ -136,18 +100,6 @@ I also learned that strong research does not always begin with a perfect solutio
 Another important change was that I became more aware of the importance of interdisciplinary thinking. AUV research cannot be separated into isolated areas. Mechanical design affects hydrodynamics and system integration. Control systems affect stability and docking behavior. Wireless power transfer affects energy autonomy. Communication affects coordination between transmitter and receiver.
 
 A successful underwater robotic system requires all these elements to work together.
-
-<!-- <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/research-mindset.jpg" title="Research mindset" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/interdisciplinary-thinking.jpg" title="Interdisciplinary thinking" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  The fellowship helped me move from a task-oriented mindset to a more problem-oriented and system-level research mindset.
-</div> -->
 
 This realization strongly influenced my long-term academic direction. It encouraged me to pursue research that combines **robotics, control, wireless power transfer, and intelligent autonomous systems**.
 
@@ -216,17 +168,6 @@ Fourth, the fellowship expanded my academic network. Connecting with professors,
 
 Finally, the experience gave me more confidence in my long-term academic path. It confirmed my interest in robotics, autonomous systems, underwater vehicles, and wireless power transfer.
 
-<!-- <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/research-outcome-1.jpg" title="Technical understanding" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/research-outcome-2.jpg" title="System-level perspective" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  The program strengthened both my technical foundation and my long-term academic direction.
-</div> -->
 
 ## Plans After the Fellowship
 
