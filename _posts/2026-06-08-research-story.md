@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "Hành trình theo đuổi khoa học"
 date: 2026-06-08
@@ -45,9 +44,9 @@ Có những việc khi bắt đầu thấy rất khó, nhưng rồi cứ làm, c
 
 Hôm nay chưa làm được, ngày mai có thể sẽ làm được. Hôm nay còn sợ, ngày mai có thể sẽ vững vàng hơn. Điều quan trọng là mình vẫn giữ niềm tin rằng mình có thể cố gắng, có thể học, có thể thay đổi và có thể đi xa hơn phiên bản hiện tại của chính mình.
 
-"Cứ đi, rồi sẽ đến.
-Cứ làm, rồi sẽ quen.
-Cứ trải qua, rồi sẽ thấy nhẹ nhàng hơn.
-Cứ sống, rồi sẽ biết trân trọng cuộc sống này hơn."
+> Cứ đi, rồi sẽ đến.  
+> Cứ làm, rồi sẽ quen.  
+> Cứ trải qua, rồi sẽ thấy nhẹ nhàng hơn.  
+> Cứ sống, rồi sẽ biết trân trọng cuộc sống này hơn.
 
 Và có lẽ, hành trình theo đuổi khoa học của tôi cũng bắt đầu như vậy: từ một chút tò mò, một chút bướng bỉnh, một chút ước mơ được bước ra thế giới, và rất nhiều lần tự nhắc mình rằng cứ đi, cứ bước, cứ làm — rồi sẽ đến.
