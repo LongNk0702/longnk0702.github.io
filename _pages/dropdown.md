@@ -12,10 +12,10 @@ children:
     permalink: /projects/
   - title: divider
   - title: blog
-    permalink: /blogs/
-  - title: divider
-  - title: repositories
-    permalink: /repositories/
+    permalink: /blog/
+  # - title: divider
+  # - title: repositories
+  #   permalink: /repositories/
   - title: divider
   - title: media
     permalink: /media/
