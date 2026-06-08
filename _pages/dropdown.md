@@ -17,6 +17,9 @@ children:
   - title: repositories
     permalink: /repositories/
   - title: divider
+  - title: media
+    permalink: /media/
+  - title: divider
   - title: teaching
     permalink: /teaching/
   - title: divider
