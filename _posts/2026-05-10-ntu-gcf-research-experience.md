@@ -138,20 +138,78 @@ Preparing the poster helped me think more carefully about the structure of my re
 
 During the session, I received questions and feedback from other fellows, researchers, and visitors. These discussions helped me see my project from different perspectives and identify possible directions for future improvement.
 
-<div class="row justify-content-sm-center">
+<style>
+  .ntu-poster-grid figure {
+    margin: 0;
+    height: 100%;
+  }
+
+  .ntu-poster-grid picture {
+    display: block;
+    height: 100%;
+  }
+
+  .ntu-poster-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ntu-poster-main {
+    height: 540px;
+  }
+
+  .ntu-poster-side {
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .ntu-poster-side > div {
+    flex: 1;
+    min-height: 0;
+  }
+
+  @media (max-width: 576px) {
+    .ntu-poster-main,
+    .ntu-poster-side {
+      height: auto;
+    }
+
+    .ntu-poster-grid img {
+      height: auto;
+      object-fit: contain;
+    }
+
+    .ntu-poster-side {
+      gap: 1rem;
+    }
+  }
+</style>
+
+<div class="row justify-content-sm-center ntu-poster-grid">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ntu-gcf-2026/poster-presentation.jpg" title="Poster presentation at NTU" class="img-fluid rounded z-depth-1" %}
+    <div class="ntu-poster-main">
+      {% include figure.liquid path="assets/img/ntu-gcf-2026/poster-presentation.jpg" title="Poster presentation at NTU" class="img-fluid rounded z-depth-1" %}
+    </div>
   </div>
 
   <div class="col-sm-4 mt-3 mt-md-0">
-    <div class="mb-3">
-      {% include figure.liquid path="assets/img/ntu-gcf-2026/most-popular-poster-award.jpg" title="Most Popular Poster Award" class="img-fluid rounded z-depth-1" %}
-    </div>
+    <div class="ntu-poster-side">
+      <div>
+        {% include figure.liquid path="assets/img/ntu-gcf-2026/most-popular-poster-award.jpg" title="Most Popular Poster Award" class="img-fluid rounded z-depth-1" %}
+      </div>
 
-    <div>
-      {% include figure.liquid path="assets/img/ntu-gcf-2026/DSC04988.JPG" title="Certificate of Completion" class="img-fluid rounded z-depth-1" %}
+      <div>
+        {% include figure.liquid path="assets/img/ntu-gcf-2026/DSC04988.JPG" title="Certificate of Completion" class="img-fluid rounded z-depth-1" %}
+      </div>
     </div>
   </div>
+</div>
+
+<div class="caption">
+  Presenting my research poster, receiving the Most Popular Poster Award, and completing the NTU Global Connect Fellowship were memorable milestones in my research journey.
 </div>
 
 <div class="caption">
