@@ -58,15 +58,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "post-",
+            },{id: "post-research-experience-at-nanyang-technological-university-singapore-ntu-gcf-2026",
         
-          title: "",
+          title: "Research Experience at Nanyang Technological University, Singapore (NTU GCF 2026)",
         
-        description: "",
+        description: "Reflection on my research experience at NTU, where I worked on wireless power transfer for autonomous underwater vehicles and reshaped my research mindset.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-05-10-ntu-gcf-research-experience/";
+            window.location.href = "/blog/2026/ntu-gcf-research-experience/";
           
         },
       },{id: "post-data-driven-modeling-for-smart-manufacturing",
