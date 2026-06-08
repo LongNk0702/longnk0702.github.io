@@ -51,15 +51,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "post-research-experience-at-nanyang-technological-university-singapore-ntu-gcf-2026",
+            },{id: "post-research-story",
         
-          title: "Research Experience at Nanyang Technological University, Singapore (NTU GCF 2026)",
+          title: "Research Story",
         
-        description: "Reflection on my research experience at NTU, where I worked on wireless power transfer for autonomous underwater vehicles and reshaped my research mindset.",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/ntu-gcf-research-experience/";
+            window.location.href = "/blog/2026/research-story/";
           
         },
       },{id: "post-data-driven-modeling-for-smart-manufacturing",
@@ -73,15 +73,15 @@ ninja.data = [{
             window.location.href = "/blog/2026/data-driven-smart-manufacturing/";
           
         },
-      },{id: "post-my-research-direction-auvs-control-and-underwater-wireless-power-transfer",
+      },{id: "post-research-experience-at-nanyang-technological-university-singapore-ntu-gcf-2026",
         
-          title: "My Research Direction: AUVs, Control, and Underwater Wireless Power Transfer",
+          title: "Research Experience at Nanyang Technological University, Singapore (NTU GCF 2026)",
         
-        description: "A short overview of my current research direction in long-endurance autonomous underwater robotic systems.",
+        description: "Reflection on my research experience at NTU, where I worked on wireless power transfer for autonomous underwater vehicles and reshaped my research mindset.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/research-direction-auv-uwpt/";
+            window.location.href = "/blog/2026/ntu-gcf-research-experience/";
           
         },
       },{id: "books-the-godfather",
