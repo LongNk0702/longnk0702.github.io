@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "post-data-driven-modeling-for-smart-manufacturing",
+            },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2026-05-10-ntu-gcf-research-experience/";
+          
+        },
+      },{id: "post-data-driven-modeling-for-smart-manufacturing",
         
           title: "Data-Driven Modeling for Smart Manufacturing",
         
@@ -67,17 +78,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/data-driven-smart-manufacturing/";
-          
-        },
-      },{id: "post-ntu-gcf-research-experience",
-        
-          title: "Ntu Gcf Research Experience",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/ntu-gcf-research-experience/";
           
         },
       },{id: "post-my-research-direction-auvs-control-and-underwater-wireless-power-transfer",
