@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: page
 title: media coverage
@@ -98,4 +97,3 @@ nav_order: 5
     </div>
   </article>
 </div>
-```
