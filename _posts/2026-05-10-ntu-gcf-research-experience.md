@@ -212,10 +212,6 @@ During the session, I received questions and feedback from other fellows, resear
   Presenting my research poster, receiving the Most Popular Poster Award, and completing the NTU Global Connect Fellowship were memorable milestones in my research journey.
 </div>
 
-<div class="caption">
-  Presenting my research poster, receiving the Most Popular Poster Award, and completing the NTU Global Connect Fellowship were memorable milestones in my research journey.
-</div>
-
 I was honored to receive the **Most Popular Poster Award** during the fellowship. This award was very meaningful to me, not only as recognition of my work, but also as encouragement to continue developing my research direction.
 
 It reminded me that research communication is an essential part of academic work. A good idea becomes more valuable when it can be shared clearly, discussed openly, and connected with the interests of a broader community.
