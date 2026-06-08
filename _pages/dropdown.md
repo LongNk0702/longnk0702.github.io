@@ -19,9 +19,9 @@ children:
   - title: divider
   - title: media
     permalink: /media/
-  - title: divider
-  - title: teaching
-    permalink: /teaching/
+  # - title: divider
+  # - title: teaching
+  #   permalink: /teaching/
   - title: divider
   - title: bookshelf
     permalink: /books/
