@@ -1,9 +1,14 @@
+
+
+```liquid
 {% assign media_items = site.data.media | sort: "date" | reverse %}
 {% assign media_limit = include.limit | default: 3 %}
 
 <style>
   .media-card {
     height: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   .media-cover {
@@ -22,6 +27,14 @@
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
+
+  .media-card .card-body {
+    flex: 1;
+  }
+
+  .media-card .card-footer {
+    margin-top: auto;
+  }
 </style>
 
 <div class="row row-cols-1 row-cols-md-3">
@@ -39,39 +52,35 @@
           </a>
         {% endif %}
 
-```
-    <div class="card-body">
-      {% if item.category %}
-        <div class="media-category text-muted">
-          {{ item.category }}
+        <div class="card-body">
+          {% if item.category %}
+            <div class="media-category text-muted">
+              {{ item.category }}
+            </div>
+          {% endif %}
+
+          <h5 class="card-title mt-2">
+            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+              {{ item.title }}
+            </a>
+          </h5>
+
+          <p class="card-text media-source">
+            <strong>{{ item.source }}</strong>
+            {% if item.date_display %}
+              · {{ item.date_display }}
+            {% elsif item.date %}
+              · {{ item.date | date: "%B %d, %Y" }}
+            {% endif %}
+          </p>
         </div>
-      {% endif %}
 
-      <h5 class="card-title mt-2">
-        <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
-          {{ item.title }}
-        </a>
-      </h5>
-
-      <p class="card-text media-source">
-        <strong>{{ item.source }}</strong>
-        {% if item.date_display %}
-          · {{ item.date_display }}
-        {% elsif item.date %}
-          · {{ item.date | date: "%B %d, %Y" }}
-        {% endif %}
-      </p>
+        <div class="card-footer">
+          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+            Read article
+          </a>
+        </div>
+      </div>
     </div>
-
-    <div class="card-footer">
-      <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
-        Read article
-      </a>
-    </div>
-  </div>
-</div>
-```
-
-{% endfor %}
-
+  {% endfor %}
 </div>
