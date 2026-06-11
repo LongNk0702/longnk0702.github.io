@@ -18,6 +18,7 @@ profile:
 
 news: true
 selected_papers: true
+media: true
 social: true
 
 announcements:
@@ -31,8 +32,10 @@ latest_posts:
   limit: 3
 ---
 
-I am a final-year B.Eng. student in Automation and Informatics at Vietnam National University, Hanoi.
+I am currently a final-year student in B.Eng. Automation and Informatics at Vietnam National University, Hanoi.
 
-My research interests lie in robotics, control systems, and AI. Currently, I focus on developing autonomous underwater vehicles by integrating intelligent control and wireless energy transfer.
+My current research focuses on autonomous underwater vehicles, particularly adaptive control and planar wireless power transfer for bio-inspired AUVs, under the supervision of <a href="https://scholar.google.com/citations?user=PXS0BHMAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Dr. Le Xuan Hai</a>. In parallel, I am also continuing my work on data-driven modeling for cutting force dynamics and tool wear prediction in smart manufacturing, building on my previous research experience with <a href="https://scholar.google.com/citations?hl=en&user=_ILk_K0AAAAJ" target="_blank" rel="noopener noreferrer">Prof. Her-Terng Yau</a> at National Chung Cheng University, Taiwan.
 
-As a life-long learner, I enjoy exploring new ideas, learning from different research environments, and connecting with people from diverse backgrounds. My international experiences in Indonesia, Taiwan and Singapore have helped me gradually bridge the gap between theory and practice, and between local learning and the global academic environment.
+I have gained research experience in different international research environments. At Nanyang Technological University, Singapore, I worked on underwater wireless power transfer under the supervision of <a href="https://scholar.google.com/citations?user=jQDI8o0AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Asst. Prof. Yun Yang</a>. At National Chung Cheng University, Taiwan, I worked on smart manufacturing and data-driven modeling under the supervision of <a href="https://scholar.google.com/citations?hl=en&user=_ILk_K0AAAAJ" target="_blank" rel="noopener noreferrer">Prof. Her-Terng Yau</a>.
+
+Always curious and eager to learn. I enjoy exploring new ideas, experiencing different research environments, and meeting people from diverse academic and cultural backgrounds around the world. I’d love to connect with seniors, mentors, and peers in control systems and robotics.
