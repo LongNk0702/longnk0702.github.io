@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-news",
-          title: "news",
+        },{id: "nav-media",
+          title: "media",
           description: "Selected media articles and news features about my academic journey, research experience, scholarships, and international programs.",
           section: "Navigation",
           handler: () => {
