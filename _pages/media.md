@@ -3,7 +3,7 @@ layout: page
 title: media
 permalink: /media/
 description: Selected media articles and news features about my academic journey, research experience, scholarships, and international programs.
-nav: true
+nav: false
 nav_order: 5
 ---
 
