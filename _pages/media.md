@@ -1,9 +1,9 @@
 ---
 layout: page
-title: media
-permalink: /media/
+title: news
+permalink: /news/
 description: Selected media articles and news features about my academic journey, research experience, scholarships, and international programs.
-nav: false
+nav: true
 nav_order: 5
 ---
 
