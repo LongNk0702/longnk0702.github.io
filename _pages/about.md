@@ -1,5 +1,4 @@
 ---
-
 layout: about
 title: about
 permalink: /
@@ -8,13 +7,7 @@ subtitle: Robotics • Control • Autonomous Systems
 profile:
   align: right
   image: profile_pic.JPG
-  image_circular: false # crops the image to make it circular
-  # more_info: >
-  #   <p>(+84) 0358036759</p>
-  #   <p>Hanoi, Vietnam</p>
-
-
-
+  image_circular: false
 
 news: true
 selected_papers: true

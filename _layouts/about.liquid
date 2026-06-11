@@ -82,16 +82,6 @@
 
 <div class="clearfix about-content">{{ content }}</div>
 
-<!-- Media -->
-{% if page.media %}
-  <section class="home-section home-media">
-    <h2>
-      <a href="{{ '/media/' | relative_url }}" style="color: inherit">News</a>
-    </h2>
-    {% include media_cards.liquid limit=3 %}
-  </section>
-{% endif %}
-
 <!-- Updates -->
 {% if page.announcements and page.announcements.enabled %}
   <section class="home-section home-updates">
@@ -119,6 +109,16 @@
       <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
     </h2>
     {% include selected_papers.liquid %}
+  </section>
+{% endif %}
+
+<!-- Media / News cards -->
+{% if page.media %}
+  <section class="home-section home-media">
+    <h2>
+      <a href="{{ '/media/' | relative_url }}" style="color: inherit">News</a>
+    </h2>
+    {% include media_cards.liquid limit=3 %}
   </section>
 {% endif %}
 
