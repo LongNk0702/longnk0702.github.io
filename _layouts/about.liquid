@@ -74,11 +74,21 @@ layout: default
 
     <div class="clearfix about-content">{{ content }}</div>
 
+    <!-- Media -->
+    {% if page.media %}
+      <section class="home-section home-media">
+        <h2>
+          <a href="{{ '/media/' | relative_url }}" style="color: inherit">News</a>
+        </h2>
+        {% include media_cards.liquid limit=3 %}
+      </section>
+    {% endif %}
+
     <!-- Updates -->
     {% if page.announcements and page.announcements.enabled %}
       <section class="home-section home-updates">
         <h2>
-          <a href="{{ '/news/' | relative_url }}" style="color: inherit">updates</a>
+          <a href="{{ '/news/' | relative_url }}" style="color: inherit">Updates</a>
         </h2>
         {% include news.liquid limit=true %}
       </section>
@@ -88,7 +98,7 @@ layout: default
     {% if page.latest_posts and page.latest_posts.enabled %}
       <section class="home-section home-latest-posts">
         <h2>
-          <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+          <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest posts</a>
         </h2>
         {% include latest_posts.liquid %}
       </section>
@@ -98,19 +108,9 @@ layout: default
     {% if page.selected_papers %}
       <section class="home-section home-publications">
         <h2>
-          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
         </h2>
         {% include selected_papers.liquid %}
-      </section>
-    {% endif %}
-
-    <!-- Media -->
-    {% if page.media %}
-      <section class="home-section home-media">
-        <h2>
-          <a href="{{ '/media/' | relative_url }}" style="color: inherit">news</a>
-        </h2>
-        {% include media_cards.liquid limit=3 %}
       </section>
     {% endif %}
 
