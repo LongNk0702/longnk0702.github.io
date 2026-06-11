@@ -1,6 +1,6 @@
 ---
-
-## layout: default
+layout: default
+---
 
 <div class="post">
   <style>
@@ -8,38 +8,31 @@
       margin-bottom: 2rem;
     }
 
-```
-.home-section {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
-}
+    .home-section {
+      margin-top: 2.25rem;
+      margin-bottom: 2.25rem;
+    }
 
-.home-section h2 {
-  margin-bottom: 1.25rem;
-}
+    .home-section h2 {
+      margin-bottom: 1.25rem;
+    }
 
-.home-section:last-of-type {
-  margin-bottom: 1.5rem;
-}
+    .home-social {
+      margin-top: 2.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--global-divider-color);
+    }
 
-.home-social {
-  margin-top: 2.5rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid var(--global-divider-color);
-}
+    @media (max-width: 576px) {
+      .home-section {
+        margin-top: 1.75rem;
+        margin-bottom: 1.75rem;
+      }
 
-@media (max-width: 576px) {
-  .home-section {
-    margin-top: 1.75rem;
-    margin-bottom: 1.75rem;
-  }
-
-  .home-section h2 {
-    margin-bottom: 1rem;
-  }
-}
-```
-
+      .home-section h2 {
+        margin-bottom: 1rem;
+      }
+    }
   </style>
 
   <header class="post-header">
@@ -60,82 +53,79 @@
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
 
-```
-      {% if page.profile.image_circular %}
-        {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-      {% else %}
-        {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-      {% endif %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% endif %}
 
-      {% capture sizes %}
-        (min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw
-      {% endcapture %}
+          {% capture sizes %}
+            (min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw
+          {% endcapture %}
 
-      {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
+        {% endif %}
+
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
     {% endif %}
 
-    {% if page.profile.more_info %}
-      <div class="more-info">{{ page.profile.more_info }}</div>
+    <div class="clearfix about-content">{{ content }}</div>
+
+    <!-- Updates -->
+    {% if page.announcements and page.announcements.enabled %}
+      <section class="home-section home-updates">
+        <h2>
+          <a href="{{ '/news/' | relative_url }}" style="color: inherit">updates</a>
+        </h2>
+        {% include news.liquid limit=true %}
+      </section>
     {% endif %}
-  </div>
-{% endif %}
 
-<div class="clearfix about-content">{{ content }}</div>
+    <!-- Latest posts -->
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <section class="home-section home-latest-posts">
+        <h2>
+          <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        </h2>
+        {% include latest_posts.liquid %}
+      </section>
+    {% endif %}
 
-<!-- Updates -->
-{% if page.announcements and page.announcements.enabled %}
-  <section class="home-section home-updates">
-    <h2>
-      <a href="{{ '/news/' | relative_url }}" style="color: inherit">Updates</a>
-    </h2>
-    {% include news.liquid limit=true %}
-  </section>
-{% endif %}
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <section class="home-section home-publications">
+        <h2>
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        </h2>
+        {% include selected_papers.liquid %}
+      </section>
+    {% endif %}
 
-<!-- Latest posts -->
-{% if page.latest_posts and page.latest_posts.enabled %}
-  <section class="home-section home-latest-posts">
-    <h2>
-      <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest posts</a>
-    </h2>
-    {% include latest_posts.liquid %}
-  </section>
-{% endif %}
+    <!-- Media -->
+    {% if page.media %}
+      <section class="home-section home-media">
+        <h2>
+          <a href="{{ '/media/' | relative_url }}" style="color: inherit">news</a>
+        </h2>
+        {% include media_cards.liquid limit=3 %}
+      </section>
+    {% endif %}
 
-<!-- Selected papers -->
-{% if page.selected_papers %}
-  <section class="home-section home-publications">
-    <h2>
-      <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
-    </h2>
-    {% include selected_papers.liquid %}
-  </section>
-{% endif %}
+    <!-- Social -->
+    {% if page.social %}
+      <section class="home-social">
+        <div class="social">
+          <div class="contact-icons">{% social_links %}</div>
+          <div class="contact-note">{{ site.contact_note }}</div>
+        </div>
+      </section>
+    {% endif %}
 
-<!-- Media / News cards -->
-{% if page.media %}
-  <section class="home-section home-media">
-    <h2>
-      <a href="{{ '/media/' | relative_url }}" style="color: inherit">News</a>
-    </h2>
-    {% include media_cards.liquid limit=3 %}
-  </section>
-{% endif %}
-
-<!-- Social -->
-{% if page.social %}
-  <section class="home-social">
-    <div class="social">
-      <div class="contact-icons">{% social_links %}</div>
-      <div class="contact-note">{{ site.contact_note }}</div>
-    </div>
-  </section>
-{% endif %}
-
-{% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-  {% include newsletter.liquid center=true %}
-{% endif %}
-```
-
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% include newsletter.liquid center=true %}
+    {% endif %}
   </article>
 </div>
