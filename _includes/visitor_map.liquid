@@ -3,19 +3,33 @@ Visitor Tracking Map
 Provider: MapMyVisitors
 ========================================================= -->
 
-<div class="visitor-map-section">
-  <script
-    type="text/javascript"
-    id="mapmyvisitors"
-    src="https://mapmyvisitors.com/map.js?d=pfBDXz84K9sQQK-T1zCEzeAeUKGgRas5DvVun-NkKg4&cl=ffffff&w=a">
-  </script>
-</div>
+<section class="visitor-map-section" aria-label="Visitor map">
+  <div class="visitor-map-inner">
+    <script
+      type="text/javascript"
+      id="mapmyvisitors"
+      src="https://mapmyvisitors.com/map.js?d=pfBDXz84K9sQQK-T1zCEzeAeUKGgRas5DvVun-NkKg4&cl=ffffff&w=350">
+    </script>
+  </div>
+
+  <p id="visitor-map-help" class="visitor-map-help">
+    If the map keeps loading, please disable ad blocker or open this page after deployment.
+  </p>
+</section>
 
 <style>
 .visitor-map-section {
+  clear: both;
   margin: 3rem auto 1.5rem auto;
   max-width: 360px;
   text-align: center;
+}
+
+.visitor-map-inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .visitor-map-section iframe,
@@ -23,8 +37,18 @@ Provider: MapMyVisitors
 .visitor-map-section canvas,
 .visitor-map-section object,
 .visitor-map-section svg {
+  display: block;
   max-width: 100% !important;
   height: auto !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visitor-map-help {
+  display: none;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
 }
 
 @media (max-width: 576px) {
@@ -34,3 +58,18 @@ Provider: MapMyVisitors
   }
 }
 </style>
+
+<script>
+  window.setTimeout(function () {
+    const section = document.querySelector(".visitor-map-section");
+    const help = document.getElementById("visitor-map-help");
+
+    if (!section || !help) return;
+
+    const text = section.innerText.toLowerCase();
+
+    if (text.includes("loading data")) {
+      help.style.display = "block";
+    }
+  }, 10000);
+</script>
