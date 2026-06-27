@@ -114,10 +114,6 @@ layout: default
       </section>
     {% endif %}
 
-
-    <!-- Visitor map -->
-    {% include visitor_map.liquid %}
-
     <!-- Social -->
     {% if page.social %}
       <section class="home-social">
@@ -127,6 +123,9 @@ layout: default
         </div>
       </section>
     {% endif %}
+
+    <!-- Visitor map -->
+    {% include visitor_map.liquid %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
