@@ -3,75 +3,34 @@ Visitor Tracking Map
 Provider: MapMyVisitors
 ========================================================= -->
 
-<div class="visitor-map-card">
-  <div class="visitor-map-header">
-    <h3>Visitor Map</h3>
-    <p>Where visitors to this website come from</p>
-  </div>
-
-  <div class="visitor-map-widget">
-    <script
-      type="text/javascript"
-      id="mapmyvisitors"
-      src="https://mapmyvisitors.com/map.js?d=pfBDXz84K9sQQK-T1zCEzeAeUKGgRas5DvVun-NkKg4&cl=ffffff&w=a">
-    </script>
-  </div>
-
-  <noscript>
-    <p class="visitor-map-noscript">
-      Visitor map requires JavaScript to display.
-    </p>
-  </noscript>
+<div class="visitor-map-section">
+  <script
+    type="text/javascript"
+    id="mapmyvisitors"
+    src="https://mapmyvisitors.com/map.js?d=pfBDXz84K9sQQK-T1zCEzeAeUKGgRas5DvVun-NkKg4&cl=ffffff&w=a">
+  </script>
 </div>
 
 <style>
-.visitor-map-card {
-  margin: 2rem auto;
-  padding: 1rem;
-  max-width: 520px;
+.visitor-map-section {
+  margin: 2.5rem auto 1.5rem auto;
+  max-width: 360px;
   text-align: center;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 12px;
-  background: var(--global-card-bg-color);
 }
 
-.visitor-map-header h3 {
-  margin-bottom: 0.25rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-.visitor-map-header p {
-  margin-bottom: 0.9rem;
-  font-size: 0.9rem;
-  color: var(--global-text-color-light);
-}
-
-.visitor-map-widget {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.visitor-map-widget iframe,
-.visitor-map-widget img,
-.visitor-map-widget canvas,
-.visitor-map-widget object {
-  max-width: 100%;
-  height: auto;
-}
-
-.visitor-map-noscript {
-  margin-top: 0.75rem;
-  font-size: 0.85rem;
-  color: var(--global-text-color-light);
+.visitor-map-section iframe,
+.visitor-map-section img,
+.visitor-map-section canvas,
+.visitor-map-section object,
+.visitor-map-section svg {
+  max-width: 100% !important;
+  height: auto !important;
 }
 
 @media (max-width: 576px) {
-  .visitor-map-card {
-    max-width: 100%;
-    padding: 0.75rem;
+  .visitor-map-section {
+    max-width: 300px;
+    margin-top: 2rem;
   }
 }
 </style>
