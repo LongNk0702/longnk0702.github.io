@@ -23,6 +23,28 @@ layout: default
       border-top: 1px solid var(--global-divider-color);
     }
 
+    .visitor-map {
+      clear: both;
+      width: 100%;
+      margin: 2.5rem auto 2rem auto;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .visitor-map a {
+      display: inline-block;
+      line-height: 0;
+    }
+
+    .visitor-map img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border: 0;
+    }
+
     @media (max-width: 576px) {
       .home-section {
         margin-top: 1.75rem;
@@ -31,6 +53,15 @@ layout: default
 
       .home-section h2 {
         margin-bottom: 1rem;
+      }
+
+      .visitor-map {
+        margin-top: 2rem;
+        margin-bottom: 1.75rem;
+      }
+
+      .visitor-map img {
+        max-width: 320px;
       }
     }
   </style>
@@ -114,7 +145,6 @@ layout: default
       </section>
     {% endif %}
 
-
     <!-- Visitor map -->
     <div class="visitor-map">
       <a
@@ -124,13 +154,12 @@ layout: default
         rel="noopener noreferrer"
       >
         <img
-          src="https://mapmyvisitors.com/map.png?cl=0e1633&w=400&t=n&d=pfBDXz84K9sQQK-T1zCEzeAeUKGgRas5DvVun-NkKg4&co=0b4975&ct=cdd4d9"
+          src="https://mapmyvisitors.com/map.png?cl=0e1633&amp;w=400&amp;t=n&amp;d=pfBDXz84K9sQQK-T1zCEzeAeUKGgRas5DvVun-NkKg4&amp;co=0b4975&amp;ct=cdd4d9"
           alt="Visitor map"
           loading="lazy"
         />
       </a>
     </div>
-
 
     <!-- Social -->
     {% if page.social %}
