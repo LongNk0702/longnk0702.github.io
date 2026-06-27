@@ -125,10 +125,8 @@ layout: default
     {% endif %}
 
     <!-- Visitor map -->
-    {% include visitor_map.liquid %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
+    <div class="visitor-map">
+    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=pfBDXz84K9sQQK-T1zCEzeAeUKGgRas5DvVun-NkKg4&cl=ffffff&w=a"></script>
+    </div>
   </article>
 </div>
