@@ -44,7 +44,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-hành-trình-theo-đuổi-khoa-học",
+            },{id: "post-people-evidence-and-context-lessons-from-nussp-2026",
+        
+          title: "People, Evidence, and Context: Lessons from NUSSP 2026",
+        
+        description: "Reflections from NUSSP 2026 on leadership, customer discovery, local context, and building ventures that create meaningful value.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/nussp-entrepreneurship-lessons/";
+          
+        },
+      },{id: "post-hành-trình-theo-đuổi-khoa-học",
         
           title: "Hành trình theo đuổi khoa học",
         
