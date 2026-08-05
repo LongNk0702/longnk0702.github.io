@@ -151,13 +151,6 @@ ninja.data = [{
           window.open("mailto:%6E%6B.%6C%6F%6E%67%37%32%33@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=HCHDS8oAAAAJ", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
