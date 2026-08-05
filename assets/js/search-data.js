@@ -4,52 +4,45 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-cv",
           title: "CV",
-          description: "",
+          description: "Academic CV of Long Nguyen Khac, covering research experience, education, publications, awards, engineering projects, and technical skills.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-news",
-          title: "news",
+        },{id: "nav-media",
+          title: "Media",
           description: "Selected media articles and news features about my academic journey, research experience, scholarships, and international programs.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/media/";
           },
-        },{id: "dropdown-publication",
-              title: "publication",
+        },{id: "dropdown-publications",
+              title: "Publications",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/publications/";
               },
-            },{id: "dropdown-project",
-              title: "project",
+            },{id: "dropdown-projects",
+              title: "Projects",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/projects/";
               },
             },{id: "dropdown-blog",
-              title: "blog",
+              title: "Blog",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/blog/";
-              },
-            },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
               },
             },{id: "post-hành-trình-theo-đuổi-khoa-học",
         
@@ -84,12 +77,7 @@ ninja.data = [{
             window.location.href = "/blog/2026/ntu-gcf-research-experience/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-received-the-fighting-spirit-prize-at-the-south-east-asia-circuit-and-system-society-hackathon-2022",
+      },{id: "news-received-the-fighting-spirit-prize-at-the-south-east-asia-circuit-and-system-society-hackathon-2022",
           title: 'Received the Fighting Spirit Prize at the South-East Asia Circuit and System Society...',
           description: "",
           section: "News",},{id: "news-selected-for-the-temasek-foundation-specialist-s-community-action-amp-amp-leadership-exchange-programme-held-in-vietnam-and-singapore",
@@ -128,67 +116,32 @@ ninja.data = [{
           section: "News",},{id: "news-selected-as-one-of-150-outstanding-young-researchers-for-the-13th-vietnam-summer-school-of-science-2026-vsss-2026-held-at-icise-quy-nhon-nam-gia-lai",
           title: 'Selected as one of 150 outstanding young researchers for the 13th Vietnam Summer...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-adaptive-fuzzy-backstepping-control-for-a-3-dof-delta-robot",
+          title: 'Adaptive Fuzzy Backstepping Control for a 3-DOF Delta Robot',
+          description: "Design, prototyping, and robust trajectory control of a three-degree-of-freedom parallel robot.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/adaptive-fuzzy-delta-robot/";
+            },},{id: "projects-cutting-force-and-tool-wear-prediction",
+          title: 'Cutting Force and Tool Wear Prediction',
+          description: "Data-driven and machine-learning models for predicting cutting forces and tool wear in CNC milling.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/cutting-force-tool-wear-prediction/";
+            },},{id: "projects-personal-protective-equipment-detection-with-yolov5s",
+          title: 'Personal Protective Equipment Detection with YOLOv5s',
+          description: "Computer-vision research comparing activation functions for construction-site safety-equipment detection.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/ppe-detection-yolov5/";
+            },},{id: "projects-underwater-wireless-power-transfer-for-autonomous-underwater-vehicles",
+          title: 'Underwater Wireless Power Transfer for Autonomous Underwater Vehicles',
+          description: "Relay-coil-enhanced spatial wireless power transfer for long-endurance autonomous underwater vehicle charging.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/projects/underwater-wireless-power-transfer/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/CV_Khac_Long_Nguyen_v02.pdf", "_blank");
+          window.open("/assets/pdf/CV_Khac_Long_Nguyen_v06.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -224,13 +177,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://instagram.com/k.long.72", "_blank");
-        },
-      },{
-        id: 'social-whatsapp',
-        title: 'whatsapp',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://wa.me/84358036759", "_blank");
         },
       },{
       id: 'light-theme',
