@@ -2,7 +2,7 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 
-cv_pdf: /assets/pdf/CV_Khac_Long_Nguyen_v02.pdf # path to your CV PDF file
+cv_pdf: /assets/pdf/CV_Khac_Long_Nguyen_v06.pdf # path to your CV PDF file
 
 email: nk.long723@gmail.com # your email address
 
@@ -17,9 +17,6 @@ github_username: longnk0702
 
 # Social media
 instagram_id: k.long.72
-
-# Communication
-whatsapp_number: "84358036759" # international format: no +, no spaces, no leading 0
 
 # RSS
 # rss_icon: false # set true if you want to show RSS icon

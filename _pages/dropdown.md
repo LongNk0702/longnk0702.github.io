@@ -4,25 +4,14 @@ title: more
 nav: true
 nav_order: 8
 dropdown: true
+sitemap: false
 children:
-  - title: publication
+  - title: Publications
     permalink: /publications/
   - title: divider
-  - title: project
+  - title: Projects
     permalink: /projects/
   - title: divider
-  - title: blog
+  - title: Blog
     permalink: /blog/
-  # - title: divider
-  # - title: repositories
-  #   permalink: /repositories/
-  # - title: divider
-  # - title: media
-  #   permalink: /media/
-  # - title: divider
-  # - title: teaching
-  #   permalink: /teaching/
-  - title: divider
-  - title: bookshelf
-    permalink: /books/
 ---

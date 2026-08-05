@@ -1,12 +1,12 @@
 ---
 layout: page
-title: projects (Updating)
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected research and engineering projects in robotics, intelligent control, wireless power transfer, and data-driven manufacturing.
 nav: false
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+display_categories: [research, engineering]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

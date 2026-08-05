@@ -90,7 +90,7 @@ cv:
           - "Designed the mechanical model and physical prototype of a 3-DOF delta robot."
           - "Implemented adaptive fuzzy logic with backstepping control for robust trajectory tracking under uncertainties."
           - "Built a dataset of 2,632 construction-site images and trained YOLOv5s with multiple activation functions for PPE detection."
-          - "Achieved Precision 84.8%, Recall 80.2%, mAP@0.5 83.9%, and mAP@0.95 43.6% using SiLU activation."
+          - "Achieved Precision 84.8%, Recall 80.2%, mAP@0.5 83.9%, and mAP@0.5–0.95 43.6% using SiLU activation."
 
       - company: ETEK Automation Solutions JSC
         location: Hanoi, Vietnam
@@ -216,7 +216,7 @@ cv:
         end_date: present
         summary: "Smart manufacturing research project using machine learning and data-driven methods to predict cutting forces and tool wear in milling."
         highlights:
-          - "Applying machine learning models (Random Forest, XGBoost, and Suppoort Vector Regression) to Taguchi machining dataset."
+          - "Applying machine learning models (Random Forest, XGBoost, and Support Vector Regression) to a Taguchi-designed machining dataset."
           - "Built data-driven models for cutting force and tool wear prediction in CNC milling using experimental machining datasets."
 
       - name: Adaptive Fuzzy Backstepping Control for a 3-DOF Delta Robot
@@ -289,10 +289,10 @@ cv:
 
     References:
       - name: Asst. Prof. Yun Yang
-        reference: "Assistant Professor, School of Electrical and Electronic Engineering, Nanyang Technological University. Contact: yun.yang@ntu.edu.sg."
+        reference: "Assistant Professor, School of Electrical and Electronic Engineering, Nanyang Technological University. Contact details are available upon request."
 
       - name: Prof. Her-Terng Yau
-        reference: "Director of AIM-HI, National Chung Cheng University. Contact: yauherterng@gmail.com."
+        reference: "Director of AIM-HI, National Chung Cheng University. Contact details are available upon request."
 
       - name: Dr. Le Xuan Hai
-        reference: "Vice Dean, Faculty of Engineering and Technology, VNU International School. Contact: hailx@vnu.edu.vn."
+        reference: "Vice Dean, Faculty of Engineering and Technology, VNU International School. Contact details are available upon request."

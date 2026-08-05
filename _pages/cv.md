@@ -2,6 +2,7 @@
 layout: cv
 permalink: /cv/
 title: CV
+description: Academic CV of Long Nguyen Khac, covering research experience, education, publications, awards, engineering projects, and technical skills.
 nav: true
 nav_order: 5
 cv_pdf: /assets/pdf/CV_Khac_Long_Nguyen_v06.pdf # you can also use external links here

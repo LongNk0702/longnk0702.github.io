@@ -1,6 +1,6 @@
 ---
 layout: page
-title: news
+title: Media
 permalink: /media/
 description: Selected media articles and news features about my academic journey, research experience, scholarships, and international programs.
 nav: true
@@ -95,5 +95,6 @@ nav_order: 5
         </div>
       {% endfor %}
     </div>
+
   </article>
 </div>

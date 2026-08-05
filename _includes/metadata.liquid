@@ -52,14 +52,15 @@
 {% endif %}
 
 {% if site.serve_og_meta %}
+  {% assign social_image = page.og_image | default: site.og_image %}
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ title }}{% else %}{{ title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.og_image or site.og_image %}
-    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+  {% if social_image %}
+    <meta property="og:image" content="{{ social_image | absolute_url }}">
   {% endif %}
   <meta property="og:locale" content="{{ site.lang }}">
 
@@ -67,8 +68,8 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.og_image or site.og_image %}
-    <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+  {% if social_image %}
+    <meta name="twitter:image" content="{{ social_image | absolute_url }}">
   {% endif %}
   {% if site.x_username %}
     <meta name="twitter:site" content="@{{ site.x_username }}">
@@ -222,26 +223,30 @@
         {% capture link %}https://www.zotero.org/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% else %}
-        {% assign sameaslinks = sameaslinks | push: social[1].url %}
+        {% if social[1].url %}
+          {% assign sameaslinks = sameaslinks | push: social[1].url %}
+        {% endif %}
     {% endcase %}
   {% endfor %}
 
+  {% assign schema_description = page.description | default: site.description %}
+  {% assign schema_headline = page.title | default: author_name %}
+  {% assign schema_image = page.og_image | default: site.og_image %}
   <script type="application/ld+json">
     {
-        "author":
-        {
-            "@type": "Person",
-            "name": "{{ author_name }}"
-        },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks | jsonify }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+      "@context": "https://schema.org",
+      "@type": "{% if is_blog_post %}BlogPosting{% elsif page.url == '/' %}Person{% else %}WebPage{% endif %}",
+      "name": {{ author_name | strip | jsonify }},
+      "headline": {{ schema_headline | strip | jsonify }},
+      "description": {{ schema_description | strip | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "author": {
+        "@type": "Person",
+        "name": {{ author_name | strip | jsonify }}
+      }{% if sameaslinks != blank %},
+      "sameAs": {{ sameaslinks | jsonify }}{% endif %}{% if schema_image %},
+      "image": {{ schema_image | absolute_url | jsonify }}{% endif %}{% if is_blog_post %},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }}{% endif %}
     }
   </script>
 {% endif %}

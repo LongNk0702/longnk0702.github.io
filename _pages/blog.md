@@ -1,7 +1,8 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
+title: Blog
+description: Research notes and reflections on robotics, control, autonomous systems, smart manufacturing, and academic growth.
 nav: false
 nav_order: 1
 pagination:
